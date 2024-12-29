@@ -428,7 +428,7 @@
   1. Example (Video →NeRF2Mesh→ 3DMesh)
       - Request
         curl -X 'POST' \
-          'https://api.gokraken.net/kraken/model/nerf2mesh/create' \
+          'https://api.krako.xyx/kraken/model/nerf2mesh/create' \
           -H 'accept: application/json' \
           -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9' \
           -H 'Content-Type: multipart/form-data' \
@@ -450,7 +450,7 @@
    1. Example (Video → NeRF2Mesh → 3DMesh)
         - Request
           curl -X 'GET' \
-           'https://api.gokraken.net/kraken/item/my-item/257a59cc-0a3e-4ce7-b7e3-17f3ce6a8041' \
+           'https://api.krako.xyx/kraken/item/my-item/257a59cc-0a3e-4ce7-b7e3-17f3ce6a8041' \
            -H 'accept: application/json' \
            -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9'
           
@@ -472,7 +472,7 @@
   1. Example (Video → NeRF2Mesh → 3DMesh)
       - Request
           curl -X 'GET' \
-           'https://api.gokraken.net/kraken/item/download/257a59cc-0a3e-4ce7-b7e3-17f3ce6a8041?type=model' \
+           'https://api.krako.xyx/kraken/item/download/257a59cc-0a3e-4ce7-b7e3-17f3ce6a8041?type=model' \
            -H 'accept: application/octet-stream' \
            -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9' \
            --output nerf2mesh.glb
