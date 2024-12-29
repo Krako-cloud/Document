@@ -1,7 +1,7 @@
-# goKraken net document List
+# KrakoLabs document List
 
 
-#### 1. ARCHITECTURE DIAGRAMS [Architecture Document](./KrakenNet_Architecture_Digrams_(v.0.1).pdf)
+#### 1. ARCHITECTURE DIAGRAMS 
 
   1. High-Level System Architecture Diagram
 
@@ -12,8 +12,7 @@
   1. Deployment Diagram
 
 
-#### 2. USER JOURNEYS [User Document](./KrakenNet_User_Journeys_(v.0.1).pdf)
-
+#### 2. USER JOURNEYS 
   1. End User Journey - Contributing Idle Computing Power
 
   1. Developer Journey - Integrating KrakenNet API/SDK
@@ -21,7 +20,7 @@
   1. System Interaction Overview
 
 
-#### 3. Detailed Financial Models [Detailed Financial Models](https://github.com/gokraken-net/1.-Detailed-Financial-Models)
+#### 3. Detailed Financial Models 
     import pandas as pd
     import numpy as np
     
@@ -129,7 +128,7 @@
     print(f"Total Raise: ${total_raise:,.2f}")
    
  
-#### 4. Governance Mechanisms [Governance Mechanisms](https://github.com/gokraken-net/2.-Governance-Mechanisms)
+#### 4. Governance Mechanisms
 
 ##### 1. Governance Structure
   ######   Voting Power
@@ -251,7 +250,7 @@
     - Implementation success rate
     - Community engagement metrics
 
-#### 5. Smart-Contract-Implementation [Smart-Contract-Implementation](https://github.com/gokraken-net/3.-Smart-Contract-Implementation)
+#### 5. Smart-Contract-Implementation
           
           // SPDX-License-Identifier: MIT
           pragma solidity ^0.8.17;
@@ -486,7 +485,7 @@
           content-disposition: attachment; filename=mesh_1.glb
           cache-control: no-cache
 
-# goKraken.net Service Interface API List
+# Krakolabs Service Interface API List
 
 # 1\. Introduction
 
