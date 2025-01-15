@@ -1,6 +1,6 @@
 # KrakoLabs document List
 
-[Krako] (https://krako.xyz/)
+[Krako.xyz Link] (https://krako.xyz/)
 
 #### 1. ARCHITECTURE DIAGRAMS 
 
