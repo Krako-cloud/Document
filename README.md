@@ -1,4 +1,4 @@
-![Logo] (./krako_logo 001.png)
+![Logo] (./krako_logo_001.png)
 # KrakoLabs document List
 
 [Krako.xyz Link] (https://krako.xyz/)
