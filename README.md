@@ -391,7 +391,7 @@
               // Additional functions for governance, rewards, and network operations...
           }
 #### 6. KPI Tracking System [KPI Link](https://claude.site/artifacts/aa5dd1da-9620-4ae9-ad75-6b2fcd041318)
-
+============================================================================================================
 ### RESTFul API Tutorial (Not Yet Public Only Example)
 #### Objective
   - Describes the usage procedure of the RESTFul API of the Kraken platform that generates media content corresponding to user input using generative AI technology and the detailed API functions.
@@ -409,7 +409,7 @@
 1. Example (Authorization)
     - Request
           curl -X 'POST' \
-            'https://api.gokraken.net/kraken/auth/sign-in' \
+            'https://api.krako.xyz/kraken/auth/sign-in' \
             -H 'accept: application/json' \
             -H 'Content-Type: application/json' \
             -d '{
@@ -430,7 +430,7 @@
   1. Example (Video →NeRF2Mesh→ 3DMesh)
       - Request
         curl -X 'POST' \
-          'https://api.krako.xyx/kraken/model/nerf2mesh/create' \
+          'https://api.krako.xyz/kraken/model/nerf2mesh/create' \
           -H 'accept: application/json' \
           -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9' \
           -H 'Content-Type: multipart/form-data' \
@@ -452,7 +452,7 @@
    1. Example (Video → NeRF2Mesh → 3DMesh)
         - Request
           curl -X 'GET' \
-           'https://api.krako.xyx/kraken/item/my-item/257a59cc-0a3e-4ce7-b7e3-17f3ce6a8041' \
+           'https://api.krako.xyz/kraken/item/my-item/257a59cc-0a3e-4ce7-b7e3-17f3ce6a8041' \
            -H 'accept: application/json' \
            -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9'
           
@@ -474,7 +474,7 @@
   1. Example (Video → NeRF2Mesh → 3DMesh)
       - Request
           curl -X 'GET' \
-           'https://api.krako.xyx/kraken/item/download/257a59cc-0a3e-4ce7-b7e3-17f3ce6a8041?type=model' \
+           'https://api.krako.xyz/kraken/item/download/257a59cc-0a3e-4ce7-b7e3-17f3ce6a8041?type=model' \
            -H 'accept: application/octet-stream' \
            -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9' \
            --output nerf2mesh.glb
