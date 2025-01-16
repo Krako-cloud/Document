@@ -391,8 +391,12 @@
               // Additional functions for governance, rewards, and network operations...
           }
 #### 6. KPI Tracking System [KPI Link](https://claude.site/artifacts/aa5dd1da-9620-4ae9-ad75-6b2fcd041318)
-============================================================================================================
-### RESTFul API Tutorial (Not Yet Public Only Example)
+
+
+===========================================================================
+## RESTFul API Tutorial (Not Yet Public Only Example)
+===========================================================================
+
 #### Objective
   - Describes the usage procedure of the RESTFul API of the Kraken platform that generates media content corresponding to user input using generative AI technology and the detailed API functions.
 
