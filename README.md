@@ -1994,3 +1994,5 @@ You need to think about the basic structure that will provide the grid and servi
 
 - End -
 
+- © 2025 Krako Labs, Inc. All rights reserved. Krako™ and the Krako logo are trademarks of Krako Labs, Inc. The information provided on this website does not constitute investment advice, financial advice, trading advice, or any other sort of advice. You should not treat any of the website's content as such. Krako Labs, Inc. does not recommend that any cryptocurrency should be bought, sold, or held by you. Do conduct your own due diligence and consult your financial advisor before making any investment decisions.
+
