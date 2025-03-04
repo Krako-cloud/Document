@@ -11,4 +11,4 @@
 3. Resource Provider User set Resource Computing Power with CPU, GPU, NPU, ETC
 4. Node User set request such as AI Trainning, Constuction 3D, Capture Image/Video
 5. Krako Operation Team Listup Resource Computing Power And Edge Network
-2. List Up rerquest and 
+6. Krako Operation Team Listup request 
