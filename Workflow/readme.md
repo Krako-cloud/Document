@@ -1,4 +1,5 @@
 ## Krako Workflow
+Low Cost WEB3 Service For AI Training, Serving, Construction 3D with Decenternal Computing
 
 ### Function Structure
 1. Orchestration As Mother
@@ -9,7 +10,8 @@
 1. Krako Operation Team Set Orchestation Server
 2. User(Taker) Install Krako Client on Computer or Mobile
 3. Resource Provider User(Giver) set Resource Computing Power with CPU, GPU, NPU, ETC
-4. Node User set request such as AI Trainning, Constuction 3D, Capture Image/Video
+4. Node User set request such as AI Training, Construction 3D, Capture Image/Video
 5. Krako Operation Team Listup Resource Computing Power And Edge Network
-6. Krako Operation Team Listup request 
-7. 
+6. Krako Operation Team Listup Request 
+7. Kroko matching Request and Resource with Trust Rate, Region, Service Type, ETC
+8. 
