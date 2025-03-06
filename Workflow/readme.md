@@ -5,6 +5,7 @@ Low Cost WEB3 Service For AI Training, Serving, Construction 3D with Decenternal
 1. Orchestration As Mother
 2. Computing Power As Babies
 3. Edge Network As Eggs
+![Architecture](./images/architecture__001.PNG)
 
 ### Basic Workflow
 1. Krako Operation Team Set Orchestation Server
