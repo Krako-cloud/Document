@@ -29,3 +29,5 @@ Low Cost WEB3 Service For AI Training, Serving, Construction 3D with Decenternal
 ![RPC](./images/tech_007.png)
 14. Processing With 3rd Party Application
 ![3rd Application](./images/3rdparty_004.PNG)
+15. Result
+![RPC](./images/tech_009.png)
