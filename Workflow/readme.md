@@ -1,6 +1,6 @@
 ## Krako Workflow
 Low Cost WEB3 Service For AI Training, Serving, Construction 3D with Decenternal Computing
-
+![Workflow](./images/Workflow_003.PNG)
 ### Function Structure
 1. Orchestration As Mother
 2. Computing Power As Babies
