@@ -17,8 +17,9 @@ Low Cost WEB3 Service For AI Training, Serving, Construction 3D with Decenternal
 6. Krako Operation Team Listup Request 
 7. Kroko Matching Request and Resource with Trust Rate, Region, Service Type, ETC
 ![Orchestation](./images/tech_001.png)
-9. Kroko Planning Fault tolerance with Plan B
-10. Krako Load Balancing Resource with Usage Trend
-11. Krako Connect Request Side and Provide Side
-12. User(Taker) Review Processing Flow, Time, Security, Cost, Fault Tolerance
-13. User(Taker) Uploading Data or Connect Data, Uploading Krako IPFS
+8. Kroko Planning Fault tolerance with Plan B
+![Orchestation](./images/tech_011.png)
+9. Krako Load Balancing Resource with Usage Trend
+13. Krako Connect Request Side and Provide Side
+14. User(Taker) Review Processing Flow, Time, Security, Cost, Fault Tolerance
+15. User(Taker) Uploading Data or Connect Data, Uploading Krako IPFS
