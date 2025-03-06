@@ -26,3 +26,4 @@ Low Cost WEB3 Service For AI Training, Serving, Construction 3D with Decenternal
 ![Connect](./images/tech_003.png)
 12. User(Taker) Review Processing Flow, Time, Security, Cost, Fault Tolerance
 13. User(Taker) Uploading Data or Connect Data, Uploading Krako IPFS
+![RPC](./images/tech_007.png)
