@@ -12,6 +12,7 @@ Low Cost WEB3 Service For AI Training, Serving, Construction 3D with Decenternal
 
 2. User(Taker) Install Krako Client on Computer or Mobile
 3. Resource Provider User(Giver) set Resource Computing Power with CPU, GPU, NPU, ETC
+![Orchestation](./images/tech_002.png)
 4. Node User set request such as AI Training, Construction 3D, Capture Image/Video
 5. Krako Operation Team Listup Resource Computing Power And Edge Network
 6. Krako Operation Team Listup Request 
