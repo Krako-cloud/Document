@@ -48,5 +48,8 @@ Low Cost WEB3 Service For AI Training, Serving, Construction 3D with Decenternal
 15. Processing With 3rd Party Application
 ![3rd Application](./images/3rdparty_004.PNG)
 
-16. Result
+16. Return Result With JSON
 ![RPC](./images/tech_009.png)
+
+17. 3rd Party Application Decal Workflow
+![RPC](./images/tech_013.png)
