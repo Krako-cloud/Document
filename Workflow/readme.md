@@ -15,50 +15,50 @@ Low Cost WEB3 Service For AI Training, Serving, Construction 3D with Decenternal
 
 2. User(Taker) Install Krako Client on Computer or Mobile
    
-4. Resource Provider User(Giver) set Resource Computing Power with CPU, GPU, NPU, IPFS, ETC
+3. Resource Provider User(Giver) set Resource Computing Power with CPU, GPU, NPU, IPFS, ETC
 ![Resource](./images/tech_002.png)
 
-6. Node User set request such as AI Training, Construction 3D, Capture Image/Video
+4. Node User set request such as AI Training, Construction 3D, Capture Image/Video
 
  
-7. Krako Operation Team Listup Resource Computing Power And Edge Network
+5. Krako Operation Team Listup Resource Computing Power And Edge Network
 
  
-8. Krako Operation Team Listup Request
+6. Krako Operation Team Listup Request
 
  
-9. Kroko Matching Request and Resource with Trust Rate, Region, Service Type, ETC
+7. Kroko Matching Request and Resource with Trust Rate, Region, Service Type, ETC
 ![Matching](./images/tech_001.png)
 
-10. Kroko Planning Fault tolerance with Plan B
+8. Kroko Planning Fault tolerance with Plan B
 ![Fault Tolernace](./images/tech_011.png)
 
-11. Krako Load Balancing Resource with Usage Trend
+9. Krako Load Balancing Resource with Usage Trend
 ![Load Balancing](./images/tech_010.png)
 
-12. Krako Connect Request Side and Provide Side
+10. Krako Connect Request Side and Provide Side
 ![Connect](./images/tech_003.png)
 
-13. User(Taker) Review Processing Flow, Time, Security, Cost, Fault Tolerance
+11. User(Taker) Review Processing Flow, Time, Security, Cost, Fault Tolerance
 
  
-14. User(Taker) Uploading Data or Connect Data, Uploading Krako IPFS
+12. User(Taker) Uploading Data or Connect Data, Uploading Krako IPFS
 ![RPC](./images/tech_007.png)
 
-15. Processing With 3rd Party Application
+13. Processing With 3rd Party Application
 ![3rd Application](./images/3rdparty_004.PNG)
 
-16. Return Result With JSON
+14. Return Result With JSON
 ![RPC](./images/tech_009.png)
 
-17. 3rd Party Application Decal 3D Workflow
+15. 3rd Party Application Decal 3D Workflow
 ![RPC](./images/tech_013.png)
 
-18. 3rd Party Application Decal 3D Data Save
+16. 3rd Party Application Decal 3D Data Save
 ![RPC](./images/tech_014.png)
 
-19. 3rd Party Application Decal 3D with Krako DePIN Service
+17. 3rd Party Application Decal 3D with Krako DePIN Service
 ![RPC](./images/tech_012.png)
 
-20. 3rd Party Game with Krako DePIN Service
+18. 3rd Party Game with Krako DePIN Service
 ![RPC](./images/tech_015.png)
