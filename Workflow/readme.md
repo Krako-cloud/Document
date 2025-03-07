@@ -58,4 +58,4 @@ Low Cost WEB3 Service For AI Training, Serving, Construction 3D with Decenternal
 ![RPC](./images/tech_014.png)
 
 19. 3rd Party Application Decal 3D with Krako DePIN Service
-![RPC](./images/tech_009.png)
+![RPC](./images/tech_012.png)
