@@ -33,7 +33,7 @@ Low Cost WEB3 Service For AI Training, Serving, Construction 3D with Decenternal
 8. Kroko Planning Fault tolerance to Plan B with Region Handover 
 ![Fault Tolernace](./images/tech_011.png)
 
-9. Krako Load Balancing Resource with Usage Trend
+9. Krako Load Balancing Resource with Usage Traffic Trend
 ![Load Balancing](./images/tech_010.png)
 
 10. Krako Connect Request Side and Provide Side
