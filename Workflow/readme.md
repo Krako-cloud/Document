@@ -13,7 +13,7 @@ Low Cost WEB3 Service For AI Training, Serving, Construction 3D with Decenternal
 ### Basic Workflow
 1. Krako Operation Team Set Orchestation Server
 
-2. User(Taker) Install Krako Client on Computer or Mobile
+2. User(Taker) Install Krako Client on Windows/MAC/LIUNX Computer or Android/iOS Mobile
    
 3. Resource Provider User(Giver) set Resource Computing Power with CPU, GPU, NPU, IPFS, ETC
 ![Resource](./images/tech_002.png)
