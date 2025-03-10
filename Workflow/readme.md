@@ -24,7 +24,7 @@ Low Cost WEB3 Service For AI Training, Serving, Construction 3D with Decenternal
 5. Krako Operation Team Listup Resource Computing Power And Edge Network
 
  
-6. Krako Operation Team Listup Request
+6. Krako Operation Team Listup Request AI Traning, Serving, 3D Consturction 
 
  
 7. Kroko Matching Request and Resource with Trust Rate, Region, Service Type, ETC
