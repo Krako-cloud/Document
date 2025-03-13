@@ -225,6 +225,59 @@
 		  background: conic-gradient(#22d5d5 50deg, #086ef0 50deg); /* 차트 설정 */
 		}
 
+		.chart_002 {
+		  position: relative;
+		  width: 100px;
+		  height: 100px;
+		  border-radius: 50%;
+		  transition: 0.3s;
+		  background:lightgray;
+		  display:inline-block;
+		}
+
+		.chart_002:after{ /* 가상선택자는 도넛 모양을 만들기 위함이다.*/
+		  content:'Work';
+		  background: #606868;  /* 백그라운드 컬러로 중앙가리기 */
+		  position: absolute;
+		  top:50%; left:50%;
+		  width:50px; height:50px; /* 도넛의 너비 설정 */
+		  border-radius: 50%;
+		  transform: translate(-50%, -50%);
+		}
+		.chart_002-bar{
+		  width: inherit;
+		  height: inherit;
+		  border-radius: 50%;
+		  background: conic-gradient(#22d5d5 50deg, #086ef0 50deg); /* 차트 설정 */
+		}
+
+		.chart_003 {
+		  position: relative;
+		  width: 100px;
+		  height: 100px;
+		  border-radius: 50%;
+		  transition: 0.3s;
+		  background:lightgray;
+		  display:inline-block;
+		}
+
+		.chart_003:after{ /* 가상선택자는 도넛 모양을 만들기 위함이다.*/
+		  content:'Task';
+		  background: #606868;  /* 백그라운드 컬러로 중앙가리기 */
+		  position: absolute;
+		  top:50%; left:50%;
+		  width:50px; height:50px; /* 도넛의 너비 설정 */
+		  border-radius: 50%;
+		  transform: translate(-50%, -50%);
+		}
+		.chart_003-bar{
+		  width: inherit;
+		  height: inherit;
+		  border-radius: 50%;
+		  background: conic-gradient(#0be506 50deg, #086ef0 50deg); /* 차트 설정 */
+		}
+		
+		
   </style> 
 </head>
 
@@ -303,7 +356,27 @@
    <br>
    
    	  
+	<div class="chart_002">
+		  <div class="chart_002-bar"></div>
+	</div>
    
+   <div class="chart_002">
+		  <div class="chart_002-bar"></div>
+	</div>
+   
+   <div class="chart_003">
+		  <div class="chart_003-bar"></div>
+	</div>
+   
+   <div class="chart_003">
+		  <div class="chart_003-bar"></div>
+	</div>
+   
+   <div class="chart_003">
+		  <div class="chart_003-bar"></div>
+	</div>
+   
+   <br>
    <progress
       class="progress"
       id="progress"
