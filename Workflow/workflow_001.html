@@ -40,11 +40,11 @@
 	  footer{clear:both;padding:20px;border:1px solid #330000 ;background:#808080;
               text-align:center }
 			  
-	   #progress {
+	   #progress_001 {
 			margin-bottom: 10px;
 			appearance: none;
 		}
-		#progress::-webkit-progress-bar {
+		#progress_001::-webkit-progress-bar {
 			background:#f0f0f0;
 			border-radius:10px;
 			box-shadow: inset 3px 3px 10px #ccc;
@@ -52,11 +52,50 @@
 			width: 300px;
 			overflow: hidden;
 		}
-		#progress::-webkit-progress-value {
+		#progress_001::-webkit-progress-value {
 			border-radius:10px;
 			background: #1D976C;
 			background: -webkit-linear-gradient(to right, #93F9B9, #06146c);
 			background: linear-gradient(to right, #2f8ae8, #06146c);
+		}
+		
+		#progress_001_1 {
+			margin-bottom: 10px;
+			appearance: none;
+		}
+		#progress_001_1::-webkit-progress-bar {
+			background:#f0f0f0;
+			border-radius:10px;
+			box-shadow: inset 3px 3px 10px #ccc;
+			height: 15px;
+			width: 300px;
+			overflow: hidden;
+		}
+		#progress_001_1::-webkit-progress-value {
+			border-radius:10px;
+			background: #1D976C;
+			background: -webkit-linear-gradient(to right, #2df513, #107603);
+			background: linear-gradient(to right, #2df513, #107603);
+		}
+
+
+		#progress_001_2 {
+			margin-bottom: 10px;
+			appearance: none;
+		}
+		#progress_001_2::-webkit-progress-bar {
+			background:#f0f0f0;
+			border-radius:10px;
+			box-shadow: inset 3px 3px 10px #ccc;
+			height: 15px;
+			width: 300px;
+			overflow: hidden;
+		}
+		#progress_001_2::-webkit-progress-value {
+			border-radius:10px;
+			background: #1D976C;
+			background: -webkit-linear-gradient(to right, #ef437b, #b70841);
+			background: linear-gradient(to right, #ef437b, #b70841);
 		}
 
 		#progress_002 {
@@ -102,6 +141,26 @@
 			background: linear-gradient(to left, #eee137, #ebdb0b);
 		}
 		
+		#progress_004 {
+			
+			margin-bottom: 0px;
+			appearance: none;
+		}
+		#progress_004::-webkit-progress-bar {
+			background:#f0f0f0;
+			border-radius:10px;
+			box-shadow: inset 3px 3px 10px #ccc;
+			height: 10px;
+			width: 200px;
+			overflow: hidden;
+		}
+		#progress_004::-webkit-progress-value {
+			border-radius:10px;
+			background: #1D976C;
+			background: -webkit-linear-gradient(to left, #3af0ee, #07e4e2);
+			background: linear-gradient(to left, #3af0ee, #07e4e2);
+		}
+		
 		#circleContainer {
 		  position: relative;
 		  width: 100px;
@@ -127,6 +186,43 @@
 		  transform: translate(-50%, -50%);
 		  font-size: 20px;
 		  color: white;
+		}
+
+		.circle-progress-value {
+			stroke-width: 6px;
+			stroke: hsl(39, 100%, 50%);
+		}
+		.circle-progress-circle {
+			stroke-width: 6px;
+			stroke: hsl(39, 100%, 85%);
+		}
+		.circle-progress-text {
+			fill: hsl(39, 100%, 50%);}
+			
+		.chart {
+		  position: relative;
+		  width: 300px;
+		  height: 300px;
+		  border-radius: 50%;
+		  transition: 0.3s;
+		  background:lightgray;
+		  display:inline-block;
+		}
+
+		.chart:after{ /* 가상선택자는 도넛 모양을 만들기 위함이다.*/
+		  content:'Processing';
+		  background: #606868;  /* 백그라운드 컬러로 중앙가리기 */
+		  position: absolute;
+		  top:50%; left:50%;
+		  width:150px; height:150px; /* 도넛의 너비 설정 */
+		  border-radius: 50%;
+		  transform: translate(-50%, -50%);
+		}
+		.chart-bar{
+		  width: inherit;
+		  height: inherit;
+		  border-radius: 50%;
+		  background: conic-gradient(#22d5d5 50deg, #086ef0 50deg); /* 차트 설정 */
 		}
 
   </style> 
@@ -158,36 +254,47 @@
    
    <section> 
       <article>
-         <h1> Resouese 001: AI Training  <progress id="progress" value="50" min="0" max="100"></progress>		<progress id="progress002" value="50" min="0" max="100"></progress></h1>
+         <h1> 1. Work_938472: AI Training...    <progress id="progress_001" value="90" min="0" max="100"></progress> </progress></h1>
          
-		 <p> Resouese 001  <progress id="progress002" value="90" min="0" max="100"></progress>
+		 <p> - Task_467386:  <progress id="progress002" value="90" min="0" max="100"></progress>
 							<progress id="progress002" value="37" min="0" max="100"></progress>
 								<progress id="progress002" value="20" min="0" max="100"></progress>							</p>
 		 
       </article>
       <article>
-         <h1> Resouese 002 </h1> <progress id="progress002" value="50" min="0" max="150"></progress>
-         <p> Resouese 002 </p>
+         <h1> 2. Work_794793: 3D Constru...  <progress id="progress_001" value="67" min="0" max="100"></progress> </h1>
+         <p> - Task_735217: <progress id="progress002" value="70" min="0" max="100"></progress>
+							<progress id="progress002" value="15" min="0" max="100"></progress>
+								<progress id="progress002" value="30" min="0" max="100"></progress> 
+		 </p>
+      </article>
+	  
+	  <article>
+         <h1> 3. Work_384729: AI Training...    <progress id="progress_001_1" value="95" min="0" max="100"></progress> </progress></h1>
+         
+		 <p> - Task_673864:  <progress id="progress002" value="60" min="0" max="100"></progress>
+							<progress id="progress002" value="47" min="0" max="100"></progress>
+								<progress id="progress002" value="30" min="0" max="100"></progress>							</p>
+		 
       </article>
       <article>
-         <h1> Resouese 003 </h1>
-         <p> Resouese 003 </p>
-      </article>
-	  <article>
-         <h1> Resouese 004 </h1>
-         <p> Resouese 004 </p>
+         <h1> 4. Work_947937: 3D Constru...  <progress id="progress_001_2" value="38" min="0" max="100"></progress> </h1>
+         <p> - Task_352177: <progress id="progress002" value="10" min="0" max="100"></progress>
+							<progress id="progress002" value="70" min="0" max="100"></progress>
+								<progress id="progress002" value="90" min="0" max="100"></progress> 
+		 </p>
       </article>
    </section>
    
    <aside>
       <p class="ad">Operation  <progress id="progress_003" value="50" min="0" max="100"></progress>
 	</p>
-		
+		<div class="chart">
+		  <div class="chart-bar"></div>
+		</div> 
 		
 	<ul>
-         <li><b>Data</b></li>
-         <li><b>Processing</b></li>
-         <li><b>Result</b></li>
+         <li><b>Work Processing Monotering</b></li>
 	</ul> 
 		
     
@@ -195,7 +302,7 @@
    
    <br>
    
-   	   
+   	  
    
    <progress
       class="progress"
@@ -254,6 +361,7 @@
    <section> 
       <article>
          <h1> Request 001 </h1>
+		 
          <p> Request 001 </p>
       </article>
       <article>
@@ -271,7 +379,7 @@
    </section>
    
    <aside>
-      <p class="ad">Operation</p>
+      <p class="ad">Operation  <progress id="progress_004" value="50" min="0" max="100"></progress> </p>
       <ul>
          <li><b>Data</b></li>
          <li><b>Processing</b></li>
