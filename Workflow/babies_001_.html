@@ -16,7 +16,7 @@
 	  /* Whole Width */
 	  #container{width:980px;margin:0 auto}
       
-	  header{margin-top:20px;padding:20px;border:1px solid #000;background:#454545 }
+	  header{height:95px;margin-top:20px;padding:20px;border:1px solid #000;background:#454545 }
       hgroup{overflow:hidden;padding-bottom:0px}
       hgroup h1{float:left;font-size:18px;color:#fff}
       hgroup h2{float:right;font-weight:normal;color:#fff;opacity:0.8}
@@ -27,7 +27,7 @@
                                       border-radius:5px;background-color:#454545}
       
 	  /* Box Width */
-	  section{float:left;width:700px;margin-top:15px;
+	  section{height:210px;float:left;width:550px;margin-top:15px;
              margin-bottom:20px;padding:20px;border:1px 
               solid #330000;line-height:20px;background:#454545  }
       
@@ -38,7 +38,7 @@
               solid #330000;line-height:20px;background:#454545  }
 			  
 	  /* Box Width */
-	  section_003{float:right;width:400px;margin-top:15px;
+	  section_003{float:right;width:340px;margin-top:15px;
              margin-bottom:20px;padding:20px;border:1px 
               solid #330000;line-height:20px;background:#454545  }
 	  
@@ -46,13 +46,13 @@
       article h3{font-size:16px}
       
 	  
-	  aside{float:right;width:200px;padding:10px;margin-top:15px;border:
+	  aside{height:230px;float:right;width:360px;padding:10px;margin-top:15px;border:
                          1px solid #330000;line-height:20px ;background:#454545 }
       
 	  aside .ad{height:100px;margin-bottom:20px;background-color:#06146c}
 
 
-	  aside_002{float:left;width:200px;padding:10px;margin-top:15px;border:
+	  aside_002{float:left;width:240px;padding:10px;margin-top:15px;border:
                          1px solid #330000;line-height:20px ;background:#454545 }
       
 	  aside_002 .ad{height:100px;margin-bottom:20px;background-color:#06146c}
@@ -152,8 +152,8 @@
 			background:#f0f0f0;
 			border-radius:10px;
 			box-shadow: inset 3px 3px 10px #ccc;
-			height: 10px;
-			width: 200px;
+			height: 15px;
+			width: 240px;
 			overflow: hidden;
 		}
 		#progress_003::-webkit-progress-value {
@@ -450,7 +450,8 @@
 			  position:relative;
 			  margin:0 auto;
 			  padding:0;
-			  width:35px;
+			  /* Graph Width */
+			  width:20px;
 			  height:100%;
 			  background:#e8e8e8;
 			  border-radius:3px 3px 0 0;
@@ -483,6 +484,36 @@
 		  }
 		}
 		
+		pA {
+		  animation-duration: 7s;
+		  animation-name: slidein;
+		  animation-iteration-count: infinite;
+		}
+
+		@keyframes slidein {
+		  from {
+			margin-left: 100%;
+			width: 300%;
+		  }
+
+		  to {
+			margin-left: 0%;
+			width: 100%;
+		  }
+		}
+
+		pB {
+		  animation-duration: 7s;
+		  animation-name: slidein;
+		  animation-iteration-count: infinite;
+		  animation-direction: alternate;
+		}
+		
+		.box{
+            width: 100px; height: 20px;
+            background-color: #0c95eb;
+        }
+		
   </style> 
 </head>
 
@@ -498,33 +529,37 @@
 			&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
 			&emsp;&emsp;&emsp;&emsp;&ensp;
 			Runtime Version V 3.7.0 </p>
+			
 		 
       </hgroup>
+	  Health: <pB> Processing: 77%      Performance: 60%      Resource Uage: 70%       Condition: 89%     Wating: 12%    Error: 0% </pB>
    </header>
  
    <section> 
   
 	  
 	  <form action='a.jsp'>
-		  <b>Computer Resource </b> <br>
+		  <b>Computer Resource </b>
+		  <hr>
 		  <input type='checkbox' name='type' value='cpu' /> CPU &emsp;&emsp;&emsp;
 		  <input type='checkbox' name='type' value='gpu' /> GPU &emsp;&emsp;&emsp;
 		  <input type='checkbox' name='type' value='npu' /> NPU &emsp;&emsp;&emsp;
 		  <input type='checkbox' name='type' value='fs' /> FS
-		  <br><br>
-		  <b> Start Date <input type="date" name="start">&emsp;&emsp;&emsp;	  End Date </b> <input type="date" name="start">
-		  <br><br>
+		  <hr>
+		  <b> Start Date <input type="date" name="start" value="#11eb0c">&emsp;&emsp;&emsp;	  End Date </b> <input type="date" name="start" color="#11eb0c">
+		  <hr>
 		  <b> Time Zone:&emsp;&emsp;&emsp; </b>
 		  <input type='checkbox' name='time' value='AM' /> AM &emsp;&emsp;&emsp;
 		  <input type='checkbox' name='time' value='PM' /> PM &emsp;&emsp;&emsp;
 		  <input type='checkbox' name='time' value='NIGHT' /> NIGHT
-		  <br><br>
+		  <hr>
 		  <b>Weekdays Table </b> <br>
 		  <input type='checkbox' name='time' value='MONDAY' /> MONDAY
 		  <input type='checkbox' name='time' value='TUESDAY' /> TUESDAY
 		  <input type='checkbox' name='time' value='WEDNESDAY' /> WEDNESDAY
 		  <input type='checkbox' name='time' value='THURSDAY' /> THURSDAY
 		  <input type='checkbox' name='time' value='FRIDAY' /> FRIDAY
+		  <br>
 		  <input type='checkbox' name='time' value='SATURDAY' /> SATURDAY
 		  <input type='checkbox' name='time' value='SUNDAY' /> SUNDAY
 		  <br>
@@ -534,28 +569,86 @@
    </section>
    
    <aside>
-      <!-- <p class="ad">Operation A <progress id="progress_003" value="50" min="0" max="100"></progress>	</p> 
-		<div class="chart">
-		  <div class="chart-bar"></div>
-		</div>  -->
 		<div class="circle_005">
 			<div class="inner-circle">
 			  <span>77%</span>
 			</div>
 		</div>
 		
-		
-	<ul>
-         <li><b>Process Monotering:77%</b></li>
-	</ul> 
-		
-    
+		<ul>
+         <li><b>Process Monotering:</b> <div class="inner-circle"> <span>89%</span></div></li>
+		</ul> 
+	   
    </aside>
    
-	
-   <section_003> 
+
+   <section> 
       <article>
-	      <p class="ad">Resouce    <progress id="progress_003" value="60" min="0" max="100"></progress>	</p>
+	     
+		<h2>Work & Task Status</h2>
+		<hr>
+		<input type="color" name="mycolor" value="#11eb0c"> <input type="color" name="mycolor" value="#11eb0c"> <input type="color" name="mycolor" value="#0c5beb"> <input type="color" name="mycolor" value="#0c5beb">
+		<input type="color" name="mycolor" value="#11eb0c"> <input type="color" name="mycolor" value="#11eb0c"> <input type="color" name="mycolor" value="#e00ceb"> <input type="color" name="mycolor" value="#0c5beb">
+		<input type="color" name="mycolor" value="#0c5beb"> <input type="color" name="mycolor" value="#e00ceb">
+		<hr>
+		<h2>Fault Tolrance &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  Fault Tolrance   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  Fault Tolrance</h2>
+		<input type="checkbox" name="level" value="NONE" checked>NONE
+		&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <input type="checkbox" name="level" value="NONE" checked>NONE
+		&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <input type="checkbox" name="level" value="NONE" checked>NONE  <br>
+		<input type="checkbox" name="level" value="LOW">LOW<br>
+		<input type="checkbox" name="level" value="HIGH">HIGH<br>
+		<hr>
+		
+		
+	 <canvas id="myCanvas" width="500" height="100"></canvas>
+
+	  <script>
+		// Get the canvas and 2D context
+		const canvas = document.getElementById('myCanvas');
+		const ctx = canvas.getContext('2d');
+
+		// Create an array to store the circles
+		const circles = [
+		  { x: 50, y: 50, radius: 30, dx: 3, color: 'blue' }, // Circle 1
+		  { x: 150, y: 50, radius: 20, dx: 2, color: 'green' }, // Circle 2
+		  { x: 250, y: 50, radius: 25, dx: 4, color: 'red' }, // Circle 3
+		];
+
+		function drawCircle(x, y, radius, color) {
+		  ctx.beginPath();
+		  ctx.arc(x, y, radius, 0, Math.PI * 2);
+		  ctx.fillStyle = color;
+		  ctx.fill();
+		  ctx.closePath();
+		}
+
+		function animate() {
+		  // Clear the canvas
+		  ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+		  // Update and draw each circle
+		  circles.forEach(circle => {
+			circle.x += circle.dx;
+			if (circle.x + circle.radius > canvas.width || circle.x - circle.radius < 0) {
+			  circle.dx = -circle.dx; // Reverse direction on hitting the canvas edges
+			}
+			drawCircle(circle.x, circle.y, circle.radius, circle.color);
+		  });
+
+		  requestAnimationFrame(animate); // Repeat the animation
+		}
+
+		// Start the animation
+		animate();
+	  </script>
+		
+      
+   </section>
+   
+   
+    <section_003> 
+      <article>
+	      <p class="ad">Performance    <progress id="progress_003" value="80" min="0" max="100"></progress>	</p>
 		  <br>
          	  
 	  <div class="vertical_chart_box">
@@ -636,113 +729,14 @@
 		  </div>                                                 
 		</div>
    </section_003>
-   <!--
-   <aside>
-      <p class="ad">Operation B  <progress id="progress_004" value="50" min="0" max="100"></progress> </p>
-		<div class="circle_005">
-			<div class="inner-circle">
-			  <span>77%</span>
-			</div>
-		</div>
-	     
-	  <ul>
-         <li><b>Data <div class="inner-circle"> <span>89%</span></div></b></li>
-		 
-      </ul>
-	 
-   </aside>	
    
-   -->
-   <!--
-  <section_002> 
-      <article>
-	      <p class="ad">Uasge    <progress id="progress_003" value="60" min="0" max="100"></progress>	</p>
-		  <br>
-         	  
-	  <div class="vertical_chart_box">
-		  <div class="chart_box">
-			<ul class="axis_y">
-			  <li class="item">0<span class="blind">Work</span></li>
-			  <li class="item">3<span class="blind">Task</span></li>
-			  <li class="item">6<span class="blind">CPU</span></li>
-			  <li class="item">9<span class="blind">GPU</span></li>
-			  <li class="item">12<span class="blind">FS</span></li>
-			</ul>
-			<ul class="axis_x">
-			  <li class="item">
-				<div class="text_box">
-				  <strong class="day">Work</strong>
-				  <span class="time">90%</span>
-				</div>
-				<button type="button" class="graph">
-				  <span class="time data1" style="height:80%;"><span class="blind">data 타입 1</span></span>
-				</button>
-			  </li>
-			  <li class="item">
-				<div class="text_box">
-				  <strong class="day">Task</strong>
-				  <span class="time">30%</span>
-				</div>
-				<button type="button" class="graph">
-				  <span class="time data1" style="height:50%;"><span class="blind">data 타입 1</span></span>
-				  <span class="time data2" style="height:20%;"><span class="blind">data 타입 2</span></span>
-				  <span class="time data3" style="height:10%;"><span class="blind">data 타입 3</span></span>
-				</button>
-			  </li>
-			  <li class="item">
-				<div class="text_box">
-				  <strong class="day">CPU</strong>
-				  <span class="time">100%</span>
-				</div>
-				<button type="button" class="graph">
-				  <span class="time data3" style="height:100%;"><span class="blind">data 타입 3</span></span>
-				</button>
-			  </li>
-			  <li class="item">
-				<div class="text_box">
-				  <strong class="day">GPU</strong>
-				  <span class="time">100%</span>
-				</div>
-				<button type="button" class="graph">
-				  <span class="time data1" style="height:100%;"><span class="blind">data 타입 1</span></span>
-				</button>
-			  </li>
-			  <li class="item">
-				<div class="text_box">
-				  <strong class="day">FS</strong>
-				  <span class="time">30%</span>
-				</div>
-				<button type="button" class="graph">
-				  <span class="time data1" style="height:40%;"><span class="blind">data 타입 1</span></span>
-				  <span class="time data3" style="height:40%;"><span class="blind">data 타입 3</span></span>
-				</button>
-			  </li>
-			  <li class="item">
-				<div class="text_box">
-				  <strong class="day sat">Resource</strong>
-				  <span class="time">25%</span>
-				</div>
-				<button type="button" class="graph">
-				  <span class="time data2" style="height:20%;"><span class="blind">data 타입 2</span></span>
-				</button>
-			  </li>
-			  <li class="item">
-				<div class="text_box">
-				  <strong class="day sun">Error</strong>
-				  <span class="time">0%</span>
-				</div>
-				<button type="button" class="graph"></button>
-			  </li>
-			</ul>
-		  </div>                                                 
-		</div>
-   </section_002>
-   -->
+  
    </div>
    
    
   <nav>
       <ul>
+	  
          <li><span>&emsp;&emsp;TimeZoon&emsp;&emsp;</span></li>
          <li><span>&emsp;&emsp;CPU&emsp;&emsp;</span></li>
          <li><span>&emsp;&emsp;GPU&emsp;&emsp;</span></li>
@@ -751,6 +745,7 @@
          <li><span>&emsp;&emsp;Traffic&emsp;&emsp;</span></li>
          <li><span>&emsp;&emsp;Error&emsp;&emsp;</span></li>
 		 <li><span>&emsp;&emsp;Processing&emsp;&emsp;</span></li>
+	
       </ul>
    </nav>
    
