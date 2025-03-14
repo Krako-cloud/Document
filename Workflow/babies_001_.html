@@ -591,16 +591,22 @@
 		<input type="color" name="mycolor" value="#11eb0c"> <input type="color" name="mycolor" value="#11eb0c"> <input type="color" name="mycolor" value="#e00ceb"> <input type="color" name="mycolor" value="#0c5beb">
 		<input type="color" name="mycolor" value="#0c5beb"> <input type="color" name="mycolor" value="#e00ceb">
 		<hr>
-		<h2>Fault Tolrance &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  Fault Tolrance   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  Fault Tolrance</h2>
-		<input type="checkbox" name="level" value="NONE" checked>NONE
-		&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <input type="checkbox" name="level" value="NONE" checked>NONE
-		&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <input type="checkbox" name="level" value="NONE" checked>NONE  <br>
-		<input type="checkbox" name="level" value="LOW">LOW<br>
-		<input type="checkbox" name="level" value="HIGH">HIGH<br>
+		<h2>AI Traing/Serving &emsp;&emsp;&emsp;&emsp;&emsp;  3D Construction   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  FileSystem</h2>
+		<input type="checkbox" name="level" value="NONE" >NONE
+		&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <input type="checkbox" name="level" value="NONE" >NONE
+		&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <input type="checkbox" name="level" value="NONE" >NONE  <br>
+		<input type="checkbox" name="level" value="LOW" >LOW&ensp;
+		&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <input type="checkbox" name="level" value="NONE" >LOW
+		&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&ensp; <input type="checkbox" name="level" value="NONE" checked>LOW
+		<br>
+		<input type="checkbox" name="level" value="HIGH" checked>HIGH
+		&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <input type="checkbox" name="level" value="NONE" checked>HIGH
+		&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp; <input type="checkbox" name="level" value="NONE" c>HIGH
+		<br>
 		<hr>
 		
 		
-	 <canvas id="myCanvas" width="500" height="100"></canvas>
+	 <canvas id="myCanvas" width="550" height="100"></canvas>
 
 	  <script>
 		// Get the canvas and 2D context
@@ -611,7 +617,7 @@
 		const circles = [
 		  { x: 50, y: 50, radius: 30, dx: 3, color: 'blue' }, // Circle 1
 		  { x: 150, y: 50, radius: 20, dx: 2, color: 'green' }, // Circle 2
-		  { x: 250, y: 50, radius: 25, dx: 4, color: 'red' }, // Circle 3
+		  { x: 250, y: 50, radius: 25, dx: 4, color: 'cyan' }, // Circle 3
 		];
 
 		function drawCircle(x, y, radius, color) {
