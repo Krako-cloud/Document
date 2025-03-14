@@ -1,0 +1,766 @@
+<!-- section4.html -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+   <title>Babies DePIN</title>
+   <style type="text/css"> 
+      html,body{width:100%;height:70%}
+      html{overflow-y:scroll}
+      body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,form,fieldset,p,button{margin:0;padding:0}
+      body,h1,h2,h3,h4,input,button{font-family:NanumGothicWeb,verdana,dotum, 
+                                             sans-serif;font-size:13px;color:#ffffff}
+      body{background-color:#273746}
+      li{list-style:none}
+      
+	  /* Whole Width */
+	  #container{width:980px;margin:0 auto}
+      
+	  header{margin-top:20px;padding:20px;border:1px solid #000;background:#454545 }
+      hgroup{overflow:hidden;padding-bottom:0px}
+      hgroup h1{float:left;font-size:18px;color:#fff}
+      hgroup h2{float:right;font-weight:normal;color:#fff;opacity:0.8}
+      
+	  nav{clear:both;overflow:hidden}
+      nav li{float:left;padding-right:5px;font-family:verdana}
+	  nav li span{display:inline-block;padding:3px 10px;
+                                      border-radius:5px;background-color:#454545}
+      
+	  /* Box Width */
+	  section{float:left;width:700px;margin-top:15px;
+             margin-bottom:20px;padding:20px;border:1px 
+              solid #330000;line-height:20px;background:#454545  }
+      
+	  
+	  /* Box Width */
+	  section_002{float:left;width:400px;margin-top:15px;
+             margin-bottom:20px;padding:20px;border:1px 
+              solid #330000;line-height:20px;background:#454545  }
+			  
+	  /* Box Width */
+	  section_003{float:right;width:400px;margin-top:15px;
+             margin-bottom:20px;padding:20px;border:1px 
+              solid #330000;line-height:20px;background:#454545  }
+	  
+	  article{margin-bottom:10px}
+      article h3{font-size:16px}
+      
+	  
+	  aside{float:right;width:200px;padding:10px;margin-top:15px;border:
+                         1px solid #330000;line-height:20px ;background:#454545 }
+      
+	  aside .ad{height:100px;margin-bottom:20px;background-color:#06146c}
+
+
+	  aside_002{float:left;width:200px;padding:10px;margin-top:15px;border:
+                         1px solid #330000;line-height:20px ;background:#454545 }
+      
+	  aside_002 .ad{height:100px;margin-bottom:20px;background-color:#06146c}
+
+      
+	  footer{clear:both;padding:20px;border:1px solid #330000 ;background:#808080;
+              text-align:center }
+		
+		
+	   #progress_001 {
+			margin-bottom: 10px;
+			appearance: none;
+		}
+		#progress_001::-webkit-progress-bar {
+			background:#f0f0f0;
+			border-radius:10px;
+			box-shadow: inset 3px 3px 10px #ccc;
+			height: 15px;
+			width: 300px;
+			overflow: hidden;
+		}
+		#progress_001::-webkit-progress-value {
+			border-radius:10px;
+			background: #1D976C;
+			background: -webkit-linear-gradient(to right, #93F9B9, #06146c);
+			background: linear-gradient(to right, #2f8ae8, #06146c);
+		}
+		
+		#progress_001_1 {
+			margin-bottom: 10px;
+			appearance: none;
+		}
+		#progress_001_1::-webkit-progress-bar {
+			background:#f0f0f0;
+			border-radius:10px;
+			box-shadow: inset 3px 3px 10px #ccc;
+			height: 15px;
+			width: 300px;
+			overflow: hidden;
+		}
+		#progress_001_1::-webkit-progress-value {
+			border-radius:10px;
+			background: #1D976C;
+			background: -webkit-linear-gradient(to right, #2df513, #107603);
+			background: linear-gradient(to right, #2df513, #107603);
+		}
+
+
+		#progress_001_2 {
+			margin-bottom: 10px;
+			appearance: none;
+		}
+		#progress_001_2::-webkit-progress-bar {
+			background:#f0f0f0;
+			border-radius:10px;
+			box-shadow: inset 3px 3px 10px #ccc;
+			height: 15px;
+			width: 300px;
+			overflow: hidden;
+		}
+		#progress_001_2::-webkit-progress-value {
+			border-radius:10px;
+			background: #1D976C;
+			background: -webkit-linear-gradient(to right, #ef437b, #b70841);
+			background: linear-gradient(to right, #ef437b, #b70841);
+		}
+
+		#progress_002 {
+			/* position: fixed;
+			top: 75px;
+			left: 200px;
+			width: 200px; */
+			margin-bottom: 10px;
+			appearance: none;
+		}
+		#progress_002::-webkit-progress-bar {
+			background:#f0f0f0;
+			border-radius:10px;
+			box-shadow: inset 3px 3px 10px #ccc;
+			height: 10px;
+			width: 200px;
+			overflow: hidden;
+		}
+		#progress_002::-webkit-progress-value {
+			border-radius:10px;
+			background: #1D976C;
+			background: -webkit-linear-gradient(to left, #93F9B9, #06146c);
+			background: linear-gradient(to left, #42e51f, #1b7607);
+		}
+		
+		#progress_003 {
+			
+			margin-bottom: 0px;
+			appearance: none;
+		}
+		#progress_003::-webkit-progress-bar {
+			background:#f0f0f0;
+			border-radius:10px;
+			box-shadow: inset 3px 3px 10px #ccc;
+			height: 10px;
+			width: 200px;
+			overflow: hidden;
+		}
+		#progress_003::-webkit-progress-value {
+			border-radius:10px;
+			background: #1D976C;
+			background: -webkit-linear-gradient(to left, #eee137, #ebdb0b);
+			background: linear-gradient(to left, #11eb0c, #ebdb0b);
+		}
+		
+		#progress_004 {
+			
+			margin-bottom: 0px;
+			appearance: none;
+		}
+		#progress_004::-webkit-progress-bar {
+			background:#f0f0f0;
+			border-radius:5px;
+			/* box-shadow: inset 3px 3px 10px #ccc;*/
+			height: 10px;
+			width: 200px;
+			overflow: hidden;
+		}
+		#progress_004::-webkit-progress-value {
+			border-radius:5px;
+			background: #1D976C;
+			background: -webkit-linear-gradient(to left, #3af0ee, #07e4e2);
+			background: linear-gradient(to left, #3af0ee, #07e4e2);
+		}
+		
+		#circleContainer {
+		  position: relative;
+		  width: 90px;
+		  height: 90px;
+		  margin: auto;
+		}
+
+		#circle {
+		  position: absolute;
+		  top: 0;
+		  left: 0;
+		  width: 100%;
+		  height: 100%;
+		  border-radius: 50%;
+		  background: conic-gradient(blue 0%, blue var(--percent), transparent var(--percent), transparent 100%);
+		  transform-origin: center;
+		  transform: rotate(-90deg);
+		  margin: auto;
+		}
+
+		#percentText {
+		  position: absolute;
+		  top: 50%;
+		  left: 50%;
+		  transform: translate(-50%, -50%);
+		  font-size: 20px;
+		  color: white;
+		}
+
+		.circle-progress-value {
+			stroke-width: 6px;
+			stroke: hsl(39, 100%, 50%);
+		}
+		.circle-progress-circle {
+			stroke-width: 6px;
+			stroke: hsl(39, 100%, 85%);
+		}
+		.circle-progress-text {
+			fill: hsl(39, 100%, 50%);}
+			
+		.chart {
+		  position: relative;
+		  width: 230px;
+		  height: 230px;
+		  border-radius: 50%;
+		  transition: 0.3s;
+		  background:lightgray;
+		  /*display:inline-block;*/
+		  margin: auto;
+		}
+
+		.chart:after{ /* 가상선택자는 도넛 모양을 만들기 위함이다.*/
+		  content:'Processing';
+		  background: #606868;  /* 백그라운드 컬러로 중앙가리기 */
+		  position: absolute;
+		  top:50%; left:50%;
+		  width:150px; height:150px; /* 도넛의 너비 설정 */
+		  border-radius: 50%;
+		  transform: translate(-50%, -50%);
+		  margin: auto;
+		}
+		.chart-bar{
+		  width: inherit;
+		  height: inherit;
+		  border-radius: 50%;
+		  background: conic-gradient(#22d5d5 50deg, #086ef0 50deg); /* 차트 설정 */
+		  margin: auto;
+		}
+
+		.chart_002 {
+		  position: relative;
+		  width: 100px;
+		  height: 100px;
+		  border-radius: 50%;
+		  transition: 0.3s;
+		  background:lightgray;
+		  display:inline-block;
+		}
+
+		.chart_002:after{ /* 가상선택자는 도넛 모양을 만들기 위함이다.*/
+		  content:'Work';
+		  background: #606868;  /* 백그라운드 컬러로 중앙가리기 */
+		  position: absolute;
+		  top:50%; left:50%;
+		  width:50px; height:50px; /* 도넛의 너비 설정 */
+		  border-radius: 50%;
+		  transform: translate(-50%, -50%);
+		}
+		.chart_002-bar{
+		  width: inherit;
+		  height: inherit;
+		  border-radius: 50%;
+		  background: conic-gradient(#22d5d5 50deg, #086ef0 50deg); /* 차트 설정 */
+		}
+
+		.chart_003 {
+		  position: relative;
+		  width: 100px;
+		  height: 100px;
+		  border-radius: 50%;
+		  transition: 0.3s;
+		  background:lightgray;
+		  display:inline-block;
+		}
+
+		.chart_003:after{ /* 가상선택자는 도넛 모양을 만들기 위함이다.*/
+		  content:'Task';
+		  background: #606868;  /* 백그라운드 컬러로 중앙가리기 */
+		  position: absolute;
+		  top:50%; left:50%;
+		  width:50px; height:50px; /* 도넛의 너비 설정 */
+		  border-radius: 50%;
+		  transform: translate(-50%, -50%);
+		}
+		.chart_003-bar{
+		  width: inherit;
+		  height: inherit;
+		  border-radius: 50%;
+		  background: conic-gradient(#0be506 50deg, #086ef0 50deg); /* 차트 설정 */
+		}
+		
+		.circle_005 {
+				font-size: 30px;
+				width: 180px;
+				height: 180px;
+				display: flex;
+				border-radius: 70%;
+				border: 1px solid #353b48;
+				
+				position: relative;
+				margin: auto;
+				background: conic-gradient(yellowgreen 277deg, white 0deg);
+				
+		  }
+		  
+		  .inner-circle {
+			width: 70%;
+			height: 70%;
+			border-radius: inherit;
+			background-color: #0b5509;
+			margin: auto;
+			display: flex;
+			color: white;
+			justify-content: center;
+			
+		  }
+
+		  .inner-circle span {
+			display: flex;
+			align-items: center;
+			
+		  }
+		
+		.inner-circle_002 {
+			width: 630px;
+			height: 20px;
+			border-radius: inherit;
+			background-color: #353b48;
+			margin: auto;
+			display: flex;
+			color: white;
+			justify-content: center;
+			
+		  }
+		  
+		ul,li{
+		  list-style:none;
+		}
+		
+		.blind{
+		  position:absolute;
+		  clip:rect(0 0 0 0);
+		  width:1px;
+		  height:1px;
+		  overflow:hidden;
+		}
+		
+		.vertical_chart_box{
+		  position:relative;
+		  .chart_box{
+			position:relative;
+			margin-bottom:45px;
+			padding-left:20px;
+			box-sizing:border-box;
+			height:200px;
+		  }
+		
+		.axis_y{
+			display:-webkit-flex;
+			display:-ms-flex;
+			display:-o-flex;
+			display:flex;
+			flex-direction:column-reverse;
+			align-items:center;
+			justify-content:space-between;
+			position:absolute;
+			top:0;
+			left:0;
+			margin:0;
+			padding:0;
+			width:20px;
+			height:100%;
+			font-size:12px;
+			color:#4a4a4a;
+			&:before{
+			  content:'';
+			  position:absolute;
+			  top:5px;
+			  bottom:0;
+			  right:0;
+			  width:1px;
+			  background:#d3d3d3;
+			}
+		  }
+		  
+		  .axis_x{
+			display:-webkit-flex;
+			display:-ms-flex;
+			display:-o-flex;
+			display:flex;
+			justify-content:center;
+			position:relative;
+			padding:0;
+			box-sizing:border-box;
+			height:100%;
+			border-bottom:1px solid #d3d3d3;
+			.item{
+			  flex:1;
+			  position:relative;
+			  .text_box{
+				position:absolute;
+				bottom:-43px;
+				left:50%;
+				text-align:center;
+				-webkit-transform:translate(-50%,0);
+				-ms-transform:translate(-50%,0);
+				-o-transform:translate(-50%,0);
+				transform:translate(-50%,0);
+				.day{
+				  display:block;
+				  font-size:12px;
+				  line-height:19px;
+				  color:#ffffff;
+				  &.sat{
+					color:#3475ed;
+				  }
+				  &.sun{
+					color:#eb474a;
+				  }
+				}
+				.time{
+				  display:block;
+				  margin-top:3px;
+				  font-size:12px;
+				  color:#999;
+				}
+			  }
+			}
+			.graph{
+			  display:-webkit-flex;
+			  display:-ms-flex;
+			  display:-o-flex;
+			  display:flex;
+			  flex-direction:column-reverse;
+			  position:relative;
+			  margin:0 auto;
+			  padding:0;
+			  width:35px;
+			  height:100%;
+			  background:#e8e8e8;
+			  border-radius:3px 3px 0 0;
+			  overflow:hidden;
+			  .time{
+				display:block;
+				position:relative;
+				margin-bottom:-4px;
+				padding-top:4px;
+				box-sizing:content-box;
+				width:100%;
+				border-radius:3px 3px 0 0;
+				&.data1{
+				  background:#0b99e0;
+				  z-index:3;
+				}
+				&.data2{
+				  background:#30d97d;
+				  z-index:2;
+				}
+				&.data3{
+				  background:#f5dc12;
+				  z-index:1;
+				}
+			  }
+			}
+			button.graph{
+			  border:0;
+			}
+		  }
+		}
+		
+  </style> 
+</head>
+
+<body>
+   <div id="container">
+   <header>
+      <hgroup>
+         <h1>Babies Computing Power</h1>
+         <h2>Powered by Krako Labs</h2>
+		 <br><br><p>Babies Status-bar  <progress id="progress_002" value="50" min="0" max="100"></progress> 
+		 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+			&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 
+			&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+			&emsp;&emsp;&emsp;&emsp;&ensp;
+			Runtime Version V 3.7.0 </p>
+		 
+      </hgroup>
+   </header>
+ 
+   <section> 
+  
+	  
+	  <form action='a.jsp'>
+		  <b>Computer Resource </b> <br>
+		  <input type='checkbox' name='type' value='cpu' /> CPU &emsp;&emsp;&emsp;
+		  <input type='checkbox' name='type' value='gpu' /> GPU &emsp;&emsp;&emsp;
+		  <input type='checkbox' name='type' value='npu' /> NPU &emsp;&emsp;&emsp;
+		  <input type='checkbox' name='type' value='fs' /> FS
+		  <br><br>
+		  <b> Start Date <input type="date" name="start">&emsp;&emsp;&emsp;	  End Date </b> <input type="date" name="start">
+		  <br><br>
+		  <b> Time Zone:&emsp;&emsp;&emsp; </b>
+		  <input type='checkbox' name='time' value='AM' /> AM &emsp;&emsp;&emsp;
+		  <input type='checkbox' name='time' value='PM' /> PM &emsp;&emsp;&emsp;
+		  <input type='checkbox' name='time' value='NIGHT' /> NIGHT
+		  <br><br>
+		  <b>Weekdays Table </b> <br>
+		  <input type='checkbox' name='time' value='MONDAY' /> MONDAY
+		  <input type='checkbox' name='time' value='TUESDAY' /> TUESDAY
+		  <input type='checkbox' name='time' value='WEDNESDAY' /> WEDNESDAY
+		  <input type='checkbox' name='time' value='THURSDAY' /> THURSDAY
+		  <input type='checkbox' name='time' value='FRIDAY' /> FRIDAY
+		  <input type='checkbox' name='time' value='SATURDAY' /> SATURDAY
+		  <input type='checkbox' name='time' value='SUNDAY' /> SUNDAY
+		  <br>
+		  
+		</form>
+		
+   </section>
+   
+   <aside>
+      <!-- <p class="ad">Operation A <progress id="progress_003" value="50" min="0" max="100"></progress>	</p> 
+		<div class="chart">
+		  <div class="chart-bar"></div>
+		</div>  -->
+		<div class="circle_005">
+			<div class="inner-circle">
+			  <span>77%</span>
+			</div>
+		</div>
+		
+		
+	<ul>
+         <li><b>Process Monotering:77%</b></li>
+	</ul> 
+		
+    
+   </aside>
+   
+	
+   <section_003> 
+      <article>
+	      <p class="ad">Resouce    <progress id="progress_003" value="60" min="0" max="100"></progress>	</p>
+		  <br>
+         	  
+	  <div class="vertical_chart_box">
+		  <div class="chart_box">
+			<ul class="axis_y">
+			  <li class="item">0<span class="blind">Work</span></li>
+			  <li class="item">3<span class="blind">Task</span></li>
+			  <li class="item">6<span class="blind">CPU</span></li>
+			  <li class="item">9<span class="blind">GPU</span></li>
+			  <li class="item">12<span class="blind">FS</span></li>
+			</ul>
+			<ul class="axis_x">
+			  <li class="item">
+				<div class="text_box">
+				  <strong class="day">Work</strong>
+				  <span class="time">90%</span>
+				</div>
+				<button type="button" class="graph">
+				  <span class="time data1" style="height:80%;"><span class="blind">data 타입 1</span></span>
+				</button>
+			  </li>
+			  <li class="item">
+				<div class="text_box">
+				  <strong class="day">Task</strong>
+				  <span class="time">30%</span>
+				</div>
+				<button type="button" class="graph">
+				  <span class="time data1" style="height:50%;"><span class="blind">data 타입 1</span></span>
+				  <span class="time data2" style="height:20%;"><span class="blind">data 타입 2</span></span>
+				  <span class="time data3" style="height:10%;"><span class="blind">data 타입 3</span></span>
+				</button>
+			  </li>
+			  <li class="item">
+				<div class="text_box">
+				  <strong class="day">CPU</strong>
+				  <span class="time">100%</span>
+				</div>
+				<button type="button" class="graph">
+				  <span class="time data3" style="height:100%;"><span class="blind">data 타입 3</span></span>
+				</button>
+			  </li>
+			  <li class="item">
+				<div class="text_box">
+				  <strong class="day">GPU</strong>
+				  <span class="time">100%</span>
+				</div>
+				<button type="button" class="graph">
+				  <span class="time data1" style="height:100%;"><span class="blind">data 타입 1</span></span>
+				</button>
+			  </li>
+			  <li class="item">
+				<div class="text_box">
+				  <strong class="day">FS</strong>
+				  <span class="time">30%</span>
+				</div>
+				<button type="button" class="graph">
+				  <span class="time data1" style="height:40%;"><span class="blind">data 타입 1</span></span>
+				  <span class="time data3" style="height:40%;"><span class="blind">data 타입 3</span></span>
+				</button>
+			  </li>
+			  <li class="item">
+				<div class="text_box">
+				  <strong class="day sat">Resource</strong>
+				  <span class="time">25%</span>
+				</div>
+				<button type="button" class="graph">
+				  <span class="time data2" style="height:20%;"><span class="blind">data 타입 2</span></span>
+				</button>
+			  </li>
+			  <li class="item">
+				<div class="text_box">
+				  <strong class="day sun">Error</strong>
+				  <span class="time">0%</span>
+				</div>
+				<button type="button" class="graph"></button>
+			  </li>
+			</ul>
+		  </div>                                                 
+		</div>
+   </section_003>
+   <!--
+   <aside>
+      <p class="ad">Operation B  <progress id="progress_004" value="50" min="0" max="100"></progress> </p>
+		<div class="circle_005">
+			<div class="inner-circle">
+			  <span>77%</span>
+			</div>
+		</div>
+	     
+	  <ul>
+         <li><b>Data <div class="inner-circle"> <span>89%</span></div></b></li>
+		 
+      </ul>
+	 
+   </aside>	
+   
+   -->
+   <!--
+  <section_002> 
+      <article>
+	      <p class="ad">Uasge    <progress id="progress_003" value="60" min="0" max="100"></progress>	</p>
+		  <br>
+         	  
+	  <div class="vertical_chart_box">
+		  <div class="chart_box">
+			<ul class="axis_y">
+			  <li class="item">0<span class="blind">Work</span></li>
+			  <li class="item">3<span class="blind">Task</span></li>
+			  <li class="item">6<span class="blind">CPU</span></li>
+			  <li class="item">9<span class="blind">GPU</span></li>
+			  <li class="item">12<span class="blind">FS</span></li>
+			</ul>
+			<ul class="axis_x">
+			  <li class="item">
+				<div class="text_box">
+				  <strong class="day">Work</strong>
+				  <span class="time">90%</span>
+				</div>
+				<button type="button" class="graph">
+				  <span class="time data1" style="height:80%;"><span class="blind">data 타입 1</span></span>
+				</button>
+			  </li>
+			  <li class="item">
+				<div class="text_box">
+				  <strong class="day">Task</strong>
+				  <span class="time">30%</span>
+				</div>
+				<button type="button" class="graph">
+				  <span class="time data1" style="height:50%;"><span class="blind">data 타입 1</span></span>
+				  <span class="time data2" style="height:20%;"><span class="blind">data 타입 2</span></span>
+				  <span class="time data3" style="height:10%;"><span class="blind">data 타입 3</span></span>
+				</button>
+			  </li>
+			  <li class="item">
+				<div class="text_box">
+				  <strong class="day">CPU</strong>
+				  <span class="time">100%</span>
+				</div>
+				<button type="button" class="graph">
+				  <span class="time data3" style="height:100%;"><span class="blind">data 타입 3</span></span>
+				</button>
+			  </li>
+			  <li class="item">
+				<div class="text_box">
+				  <strong class="day">GPU</strong>
+				  <span class="time">100%</span>
+				</div>
+				<button type="button" class="graph">
+				  <span class="time data1" style="height:100%;"><span class="blind">data 타입 1</span></span>
+				</button>
+			  </li>
+			  <li class="item">
+				<div class="text_box">
+				  <strong class="day">FS</strong>
+				  <span class="time">30%</span>
+				</div>
+				<button type="button" class="graph">
+				  <span class="time data1" style="height:40%;"><span class="blind">data 타입 1</span></span>
+				  <span class="time data3" style="height:40%;"><span class="blind">data 타입 3</span></span>
+				</button>
+			  </li>
+			  <li class="item">
+				<div class="text_box">
+				  <strong class="day sat">Resource</strong>
+				  <span class="time">25%</span>
+				</div>
+				<button type="button" class="graph">
+				  <span class="time data2" style="height:20%;"><span class="blind">data 타입 2</span></span>
+				</button>
+			  </li>
+			  <li class="item">
+				<div class="text_box">
+				  <strong class="day sun">Error</strong>
+				  <span class="time">0%</span>
+				</div>
+				<button type="button" class="graph"></button>
+			  </li>
+			</ul>
+		  </div>                                                 
+		</div>
+   </section_002>
+   -->
+   </div>
+   
+   
+  <nav>
+      <ul>
+         <li><span>&emsp;&emsp;TimeZoon&emsp;&emsp;</span></li>
+         <li><span>&emsp;&emsp;CPU&emsp;&emsp;</span></li>
+         <li><span>&emsp;&emsp;GPU&emsp;&emsp;</span></li>
+         <li><span>&emsp;&emsp;NPU&emsp;&emsp;</span></li>
+         <li><span>&emsp;&emsp;IPFS&emsp;&emsp;</span></li>
+         <li><span>&emsp;&emsp;Traffic&emsp;&emsp;</span></li>
+         <li><span>&emsp;&emsp;Error&emsp;&emsp;</span></li>
+		 <li><span>&emsp;&emsp;Processing&emsp;&emsp;</span></li>
+      </ul>
+   </nav>
+   
+   <br>
+   <footer>
+      <div> <h1><b>Email: info@krako.xyz      &emsp; &emsp;&emsp; &emsp;  &emsp; &emsp;&emsp; &emsp;            HomePage: <a href="http://krako.xyz">Krako.zyz</a> </b></h1></div>
+	  <br><br>
+	  <p>© 2025 Krako Labs, Inc. All rights reserved. Krako™ and the Krako logo are trademarks of Krako Labs, Inc. The information provided on this website does not constitute investment advice, financial advice, trading advice, or any other sort of advice. You should not treat any of the website's content as such. Krako Labs, Inc. does not recommend that any cryptocurrency should be bought, sold, or held by you. Do conduct your own due diligence and consult your financial advisor before making any investment decisions.</p>
+   </footer>
+   
+   </div>
+</body>
+</html>
