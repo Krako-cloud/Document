@@ -1,0 +1,1660 @@
+<!-- section4.html -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+   <title>Eggs DePIN</title>
+   <style type="text/css"> 
+      html,body{width:100%;height:70%}
+      html{overflow-y:scroll}
+      body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,form,fieldset,p,button{margin:0;padding:0}
+      body,h1,h2,h3,h4,input,button{font-family:NanumGothicWeb,verdana,dotum, 
+                                             sans-serif;font-size:13px;color:#ffffff}
+      body{background-color:#273746}
+      li{list-style:none}
+      
+	  /* Whole Width */
+	  #container{width:380px;margin:0 auto}
+      
+	  header{width:380px;height:130px;margin-top:20px;padding:20px;border:1px solid #000;background:#454545 }
+      hgroup{overflow:hidden;padding-bottom:0px}
+      hgroup h1{float:left;font-size:18px;color:#fff}
+      hgroup h2{float:right;font-weight:normal;color:#fff;opacity:0.8}
+      
+	  nav{clear:both;overflow:hidden}
+      nav li{float:left;padding-right:5px;font-family:verdana}
+	  nav li span{display:inline-block;padding:3px 10px;
+                                      border-radius:5px;background-color:#008080}
+      
+	  /* Box Width */
+	  section{height:690px;float:left;width:380px;margin-top:15px;
+             margin-bottom:20px;padding:20px;border:1px 
+              solid #330000;line-height:20px;background:#454545  }
+      
+	  
+	  /* Box Width */
+	  section_002{float:left;width:400px;margin-top:15px;
+             margin-bottom:20px;padding:20px;border:1px 
+              solid #330000;line-height:20px;background:#454545  }
+			  
+	  /* Box Width */
+	  section_003{float:right;width:340px;margin-top:15px;
+             margin-bottom:20px;padding:20px;border:1px 
+              solid #330000;line-height:20px;background:#454545  }
+	  
+	  article{margin-bottom:10px}
+      article h3{font-size:16px}
+      
+	  
+	  aside{height:230px;float:right;width:360px;padding:10px;margin-top:15px;border:
+                         1px solid #330000;line-height:20px ;background:#454545 }
+      
+	  aside .ad{height:100px;margin-bottom:20px;background-color:#06146c}
+
+
+	  aside_002{float:left;width:240px;padding:10px;margin-top:15px;border:
+                         1px solid #330000;line-height:20px ;background:#454545 }
+      
+	  aside_002 .ad{height:100px;margin-bottom:20px;background-color:#06146c}
+
+      
+	  footer{width:380px;clear:both;padding:20px;border:1px solid #330000 ;background:#808080;
+              text-align:center }
+		
+		
+	   #progress_001 {
+			margin-bottom: 10px;
+			appearance: none;
+		}
+		#progress_001::-webkit-progress-bar {
+			background:#f0f0f0;
+			border-radius:10px;
+			box-shadow: inset 3px 3px 10px #ccc;
+			height: 15px;
+			width: 300px;
+			overflow: hidden;
+		}
+		#progress_001::-webkit-progress-value {
+			border-radius:10px;
+			background: #1D976C;
+			background: -webkit-linear-gradient(to right, #93F9B9, #06146c);
+			background: linear-gradient(to right, #2f8ae8, #06146c);
+		}
+		
+		#progress_001_1 {
+			margin-bottom: 10px;
+			appearance: none;
+		}
+		#progress_001_1::-webkit-progress-bar {
+			background:#f0f0f0;
+			border-radius:10px;
+			box-shadow: inset 3px 3px 10px #ccc;
+			height: 15px;
+			width: 300px;
+			overflow: hidden;
+		}
+		#progress_001_1::-webkit-progress-value {
+			border-radius:10px;
+			background: #1D976C;
+			background: -webkit-linear-gradient(to right, #2df513, #107603);
+			background: linear-gradient(to right, #2df513, #107603);
+		}
+
+
+		#progress_001_2 {
+			margin-bottom: 10px;
+			appearance: none;
+		}
+		#progress_001_2::-webkit-progress-bar {
+			background:#f0f0f0;
+			border-radius:10px;
+			box-shadow: inset 3px 3px 10px #ccc;
+			height: 15px;
+			width: 300px;
+			overflow: hidden;
+		}
+		#progress_001_2::-webkit-progress-value {
+			border-radius:10px;
+			background: #1D976C;
+			background: -webkit-linear-gradient(to right, #ef437b, #b70841);
+			background: linear-gradient(to right, #ef437b, #b70841);
+		}
+
+		#progress_002 {
+			/* position: fixed;
+			top: 75px;
+			left: 200px;
+			width: 200px; */
+			margin-bottom: 10px;
+			appearance: none;
+		}
+		#progress_002::-webkit-progress-bar {
+			background:#f0f0f0;
+			border-radius:10px;
+			box-shadow: inset 3px 3px 10px #ccc;
+			height: 10px;
+			width: 200px;
+			overflow: hidden;
+		}
+		#progress_002::-webkit-progress-value {
+			border-radius:10px;
+			background: #1D976C;
+			background: -webkit-linear-gradient(to left, #93F9B9, #06146c);
+			background: linear-gradient(to left, #42e51f, #1b7607);
+		}
+		
+		#progress_003 {
+			
+			margin-bottom: 0px;
+			appearance: none;
+		}
+		#progress_003::-webkit-progress-bar {
+			background:#f0f0f0;
+			border-radius:10px;
+			box-shadow: inset 3px 3px 10px #ccc;
+			height: 15px;
+			width: 240px;
+			overflow: hidden;
+		}
+		#progress_003::-webkit-progress-value {
+			border-radius:10px;
+			background: #1D976C;
+			background: -webkit-linear-gradient(to left, #eee137, #ebdb0b);
+			background: linear-gradient(to left, #11eb0c, #ebdb0b);
+		}
+		
+		#progress_004 {
+			
+			margin-bottom: 0px;
+			appearance: none;
+		}
+		#progress_004::-webkit-progress-bar {
+			background:#f0f0f0;
+			border-radius:5px;
+			/* box-shadow: inset 3px 3px 10px #ccc;*/
+			height: 10px;
+			width: 200px;
+			overflow: hidden;
+		}
+		#progress_004::-webkit-progress-value {
+			border-radius:5px;
+			background: #1D976C;
+			background: -webkit-linear-gradient(to left, #3af0ee, #07e4e2);
+			background: linear-gradient(to left, #3af0ee, #07e4e2);
+		}
+		
+		#circleContainer {
+		  position: relative;
+		  width: 90px;
+		  height: 90px;
+		  margin: auto;
+		}
+
+		#circle {
+		  position: absolute;
+		  top: 0;
+		  left: 0;
+		  width: 100%;
+		  height: 100%;
+		  border-radius: 50%;
+		  background: conic-gradient(blue 0%, blue var(--percent), transparent var(--percent), transparent 100%);
+		  transform-origin: center;
+		  transform: rotate(-90deg);
+		  margin: auto;
+		}
+
+		#percentText {
+		  position: absolute;
+		  top: 50%;
+		  left: 50%;
+		  transform: translate(-50%, -50%);
+		  font-size: 20px;
+		  color: white;
+		}
+
+		.circle-progress-value {
+			stroke-width: 6px;
+			stroke: hsl(39, 100%, 50%);
+		}
+		.circle-progress-circle {
+			stroke-width: 6px;
+			stroke: hsl(39, 100%, 85%);
+		}
+		.circle-progress-text {
+			fill: hsl(39, 100%, 50%);}
+			
+		.chart {
+		  position: relative;
+		  width: 230px;
+		  height: 230px;
+		  border-radius: 50%;
+		  transition: 0.3s;
+		  background:lightgray;
+		  /*display:inline-block;*/
+		  margin: auto;
+		}
+
+		.chart:after{ /* 가상선택자는 도넛 모양을 만들기 위함이다.*/
+		  content:'Processing';
+		  background: #606868;  /* 백그라운드 컬러로 중앙가리기 */
+		  position: absolute;
+		  top:50%; left:50%;
+		  width:150px; height:150px; /* 도넛의 너비 설정 */
+		  border-radius: 50%;
+		  transform: translate(-50%, -50%);
+		  margin: auto;
+		}
+		.chart-bar{
+		  width: inherit;
+		  height: inherit;
+		  border-radius: 50%;
+		  background: conic-gradient(#22d5d5 50deg, #086ef0 50deg); /* 차트 설정 */
+		  margin: auto;
+		}
+
+		.chart_002 {
+		  position: relative;
+		  width: 100px;
+		  height: 100px;
+		  border-radius: 50%;
+		  transition: 0.3s;
+		  background:lightgray;
+		  display:inline-block;
+		}
+
+		.chart_002:after{ /* 가상선택자는 도넛 모양을 만들기 위함이다.*/
+		  content:'Work';
+		  background: #606868;  /* 백그라운드 컬러로 중앙가리기 */
+		  position: absolute;
+		  top:50%; left:50%;
+		  width:50px; height:50px; /* 도넛의 너비 설정 */
+		  border-radius: 50%;
+		  transform: translate(-50%, -50%);
+		}
+		.chart_002-bar{
+		  width: inherit;
+		  height: inherit;
+		  border-radius: 50%;
+		  background: conic-gradient(#22d5d5 50deg, #086ef0 50deg); /* 차트 설정 */
+		}
+
+		.chart_003 {
+		  position: relative;
+		  width: 100px;
+		  height: 100px;
+		  border-radius: 50%;
+		  transition: 0.3s;
+		  background:lightgray;
+		  display:inline-block;
+		}
+
+		.chart_003:after{ /* 가상선택자는 도넛 모양을 만들기 위함이다.*/
+		  content:'Task';
+		  background: #606868;  /* 백그라운드 컬러로 중앙가리기 */
+		  position: absolute;
+		  top:50%; left:50%;
+		  width:50px; height:50px; /* 도넛의 너비 설정 */
+		  border-radius: 50%;
+		  transform: translate(-50%, -50%);
+		}
+		.chart_003-bar{
+		  width: inherit;
+		  height: inherit;
+		  border-radius: 50%;
+		  background: conic-gradient(#0be506 50deg, #086ef0 50deg); /* 차트 설정 */
+		}
+		
+		.circle_005 {
+				font-size: 30px;
+				width: 150px;
+				height: 150px;
+				display: flex;
+				border-radius: 70%;
+				border: 1px solid #353b48;
+				
+				position: relative;
+				margin: auto;
+				background: conic-gradient(yellowgreen 277deg, white 0deg);
+				
+		  }
+		  
+		  .inner-circle {
+			width: 70%;
+			height: 70%;
+			border-radius: inherit;
+			background-color: #0b5509;
+			margin: auto;
+			display: flex;
+			color: white;
+			justify-content: center;
+			
+		  }
+
+		  .inner-circle span {
+			display: flex;
+			align-items: center;
+			
+		  }
+		
+		.inner-circle_002 {
+			width: 630px;
+			height: 20px;
+			border-radius: inherit;
+			background-color: #353b48;
+			margin: auto;
+			display: flex;
+			color: white;
+			justify-content: center;
+			
+		  }
+		  
+		ul,li{
+		  list-style:none;
+		}
+		
+		.blind{
+		  position:absolute;
+		  clip:rect(0 0 0 0);
+		  width:1px;
+		  height:1px;
+		  overflow:hidden;
+		}
+		
+		.vertical_chart_box{
+		  position:relative;
+		  .chart_box{
+			position:relative;
+			margin-bottom:45px;
+			padding-left:20px;
+			box-sizing:border-box;
+			height:200px;
+		  }
+		
+		.axis_y{
+			display:-webkit-flex;
+			display:-ms-flex;
+			display:-o-flex;
+			display:flex;
+			flex-direction:column-reverse;
+			align-items:center;
+			justify-content:space-between;
+			position:absolute;
+			top:0;
+			left:0;
+			margin:0;
+			padding:0;
+			width:20px;
+			height:100%;
+			font-size:12px;
+			color:#4a4a4a;
+			&:before{
+			  content:'';
+			  position:absolute;
+			  top:5px;
+			  bottom:0;
+			  right:0;
+			  width:1px;
+			  background:#d3d3d3;
+			}
+		  }
+		  
+		  .axis_x{
+			display:-webkit-flex;
+			display:-ms-flex;
+			display:-o-flex;
+			display:flex;
+			justify-content:center;
+			position:relative;
+			padding:0;
+			box-sizing:border-box;
+			height:100%;
+			border-bottom:1px solid #d3d3d3;
+			.item{
+			  flex:1;
+			  position:relative;
+			  .text_box{
+				position:absolute;
+				bottom:-43px;
+				left:50%;
+				text-align:center;
+				-webkit-transform:translate(-50%,0);
+				-ms-transform:translate(-50%,0);
+				-o-transform:translate(-50%,0);
+				transform:translate(-50%,0);
+				.day{
+				  display:block;
+				  font-size:12px;
+				  line-height:19px;
+				  color:#ffffff;
+				  &.sat{
+					color:#3475ed;
+				  }
+				  &.sun{
+					color:#eb474a;
+				  }
+				}
+				.time{
+				  display:block;
+				  margin-top:3px;
+				  font-size:12px;
+				  color:#999;
+				}
+			  }
+			}
+			.graph{
+			  display:-webkit-flex;
+			  display:-ms-flex;
+			  display:-o-flex;
+			  display:flex;
+			  flex-direction:column-reverse;
+			  position:relative;
+			  margin:0 auto;
+			  padding:0;
+			  /* Graph Width */
+			  width:20px;
+			  height:100%;
+			  background:#e8e8e8;
+			  border-radius:3px 3px 0 0;
+			  overflow:hidden;
+			  .time{
+				display:block;
+				position:relative;
+				margin-bottom:-4px;
+				padding-top:4px;
+				box-sizing:content-box;
+				width:100%;
+				border-radius:3px 3px 0 0;
+				&.data1{
+				  background:#0b99e0;
+				  z-index:3;
+				}
+				&.data2{
+				  background:#30d97d;
+				  z-index:2;
+				}
+				&.data3{
+				  background:#f5dc12;
+				  z-index:1;
+				}
+			  }
+			}
+			button.graph{
+			  border:0;
+			}
+		  }
+		}
+		
+		pA {
+		  animation-duration: 7s;
+		  animation-name: slidein;
+		  animation-iteration-count: infinite;
+		}
+
+		@keyframes slidein {
+		  from {
+			margin-left: 100%;
+			width: 300%;
+		  }
+
+		  to {
+			margin-left: 0%;
+			width: 100%;
+		  }
+		}
+
+		pB {
+		  animation-duration: 7s;
+		  animation-name: slidein;
+		  animation-iteration-count: infinite;
+		  animation-direction: alternate;
+		}
+		
+		.box006{
+            width: 100px; height: 20px;
+            background-color: #0c95eb;
+        }
+		
+		
+		@import url(https://fonts.googleapis.com/css?family=Lato:300);
+
+
+			.container{
+			  text-align: center;
+			  background-color: #454545;
+			  overflow: hidden;
+			}
+
+			.box:nth-child(2n-1){
+			  background-color: rgba(0,0,0,0.05);
+			}
+
+			.box{
+			  display: inline-block;
+			  height: 100px;
+			  width: 33.3%;
+			  float:left;
+			  position: relative;
+			  /*margin:0 -4px -5px -2px;*/
+			  transition: all .2s ease;
+			}
+
+
+
+			.box p{
+			  color: #777;
+			  font-family:  Lato,"Helvetica Neue" ;
+			  font-weight: 300;
+			  position: absolute;
+			  font-size: 20px;
+			  width: 100%;
+			  height: 25px;
+			  text-align: center;
+			  bottom: 0px;
+			  margin: 0;
+			  top:160px;
+			  background-color: #fff;
+			  opacity: 0;
+			  text-transform: uppercase;
+			  transition: all .2s ease;
+			}
+
+			.box:hover p{
+			  bottom:0px;
+			  top:175px;
+			  opacity: 1;
+			  transition: all .2s ease;
+			  z-index: 2;
+			}
+
+
+
+			/* MEDIA QUERIES */
+			@media (max-width: 700px){
+			  .box{
+				width: 50%;
+			  }
+
+			  .box:nth-child(2n-1){
+				background-color: inherit;
+			  }
+
+			  .box:nth-child(4n),.box:nth-child(4n-3) {
+				background-color: rgba(0,0,0,0.05);
+			  }
+
+			}
+
+			@media (max-width: 420px){
+			  .box{
+				width: 100%;
+			  }
+
+			  .box:nth-child(4n),.box:nth-child(4n-3){
+				background-color: inherit;
+			  }
+
+			  .box:nth-child(2n-1){
+				background-color:rgba(0,0,0,0.05);
+			  }
+
+			}
+
+
+			/* -------------- Clock -------------- */
+
+			.clock{
+			  border-radius: 60px;
+			  border: 3px solid #fff;
+			  height: 80px;
+			  width: 80px;
+			  position: relative;
+
+			  top: 28%;
+			  top: -webkit-calc(50% - 43px);
+			  top: calc(50% - 43px);
+			  left: 35%;
+			  left: -webkit-calc(50% - 43px);
+			  left: calc(50% - 43px);
+			}
+			.clock:after{
+			  content: "";
+			  position: absolute;
+			  background-color: #fff;
+			  top:2px;
+			  left: 48%;
+			  height: 38px;
+			  width: 4px;
+			  border-radius: 5px;
+			  -webkit-transform-origin: 50% 97%;
+				  transform-origin: 50% 97%;
+			  -webkit-animation: grdAiguille 2s linear infinite;
+				  animation: grdAiguille 2s linear infinite;
+			}
+
+			@-webkit-keyframes grdAiguille{
+				0%{-webkit-transform:rotate(0deg);}
+				100%{-webkit-transform:rotate(360deg);}
+			}
+
+			@keyframes grdAiguille{
+				0%{transform:rotate(0deg);}
+				100%{transform:rotate(360deg);}
+			}
+
+			.clock:before{
+			  content: "";
+			  position: absolute;
+			  background-color: #fff;
+			  top:6px;
+			  left: 48%;
+			  height: 35px;
+			  width: 4px;
+			  border-radius: 5px;
+			  -webkit-transform-origin: 50% 94%;
+				  transform-origin: 50% 94%;
+			  -webkit-animation: ptAiguille 12s linear infinite;
+				  animation: ptAiguille 12s linear infinite;
+			}
+
+			@-webkit-keyframes ptAiguille{
+				0%{-webkit-transform:rotate(0deg);}
+				100%{-webkit-transform:rotate(360deg);}
+			}
+
+			@keyframes ptAiguille{
+				0%{transform:rotate(0deg);}
+				100%{transform:rotate(360deg);}
+			}
+
+
+			/* -------------- Sablier -------------- */
+
+			.hourglass{
+			  position: relative;
+			  height: 80px;
+			  width: 80px;
+			  top: 28%;
+			  top: -webkit-calc(50% - 43px);
+			  top: calc(50% - 43px);
+			  left: 35%;
+			  left: -webkit-calc(50% - 43px);
+			  left: calc(50% - 43px);
+			  border: 3px solid #fff;
+			  border-radius: 80px;
+			  -webkit-transform-origin: 50% 50%;
+				  transform-origin: 50% 50%;
+			  -webkit-animation: hourglass 2s ease-in-out infinite;
+				  animation: hourglass 2s ease-in-out infinite;
+			}
+
+			.hourglass:before{
+			  content: "";
+			  position: absolute;
+			  top:8px;
+			  left: 18px;
+			  width: 0px;
+			  height: 0px;
+			  border-style: solid;
+			  border-width: 37px 22px 0 22px;
+			  border-color: #fff transparent transparent transparent;
+			}
+			.hourglass:after{
+			  content: "";
+			  position: absolute;
+			  top: 35px;
+			  left: 18px;
+			  width: 0px;
+			  height: 0px;
+			  border-style: solid;
+			  border-width: 0 22px 37px 22px;
+			  border-color: transparent transparent #fff transparent;
+			}
+
+			@-webkit-keyframes hourglass{
+				0%{-webkit-transform:rotate(0deg);}
+				100%{-webkit-transform:rotate(180deg);}
+			}
+
+			@keyframes hourglass{
+				0%{transform:rotate(0deg);}
+				100%{transform:rotate(180deg);}
+			}
+
+			/* -------------- Loader1 -------------- */
+
+			.loader1{
+			  position: relative;
+			  height: 80px;
+			  width: 80px;
+			  border-radius: 80px;
+			  border: 3px solid  rgba(255,255,255, .7);
+
+			  top: 28%;
+			  top: -webkit-calc(50% - 43px);
+			  top: calc(50% - 43px);
+			  left: 35%;
+			  left: -webkit-calc(50% - 43px);
+			  left: calc(50% - 43px);
+
+			  -webkit-transform-origin: 50% 50%;
+				  transform-origin: 50% 50%;
+			  -webkit-animation: loader1 3s linear infinite;
+				  animation: loader1 3s linear infinite;
+			}
+
+			.loader1:after{
+			  content: "";
+			  position: absolute;
+			  top: -5px;
+			  left: 20px;
+			  width: 11px;
+			  height: 11px;
+			  border-radius: 10px;
+			  background-color: #fff;
+			}
+
+			@-webkit-keyframes loader1{
+				0%{-webkit-transform:rotate(0deg);}
+				100%{-webkit-transform:rotate(360deg);}
+			}
+
+			@keyframes loader1{
+				0%{transform:rotate(0deg);}
+				100%{transform:rotate(360deg);}
+			}
+
+
+			/* -------------- loader2 -------------- */
+
+			.loader2{
+			  position: relative;
+			  width: 5px;
+			  height: 5px;
+
+			  top: 49%;
+			  top: -webkit-calc(50% - 43px);
+			  top: calc(50% - 2.5px);
+			  left: 49%;
+			  left: -webkit-calc(50% - 43px);
+			  left: calc(50% - 2.5px);
+
+			  background-color: #fff;
+			  border-radius: 50px;
+			}
+
+			.loader2:before{
+			  content: "";
+			  position: absolute;
+			  top: -38px;
+			  border-top: 3px solid #fff;
+			  border-right: 3px solid #fff;
+			  border-radius: 0 50px 0px  0;
+			  width: 40px;
+			  height: 40px;
+			  background-color: rgba(255, 255, 255, .1);
+			  -webkit-transform-origin:  0% 100%;
+				  transform-origin:  0% 100% ;
+			  -webkit-animation: loader2 1.5s linear infinite;
+				  animation: loader2 1.5s linear infinite;
+			}
+
+			.loader2:after{
+			  content: "";
+			  position: absolute;
+			  top: 2px;
+			  right: 2px;
+			  border-bottom: 3px solid #fff;
+			  border-left: 3px solid #fff;
+			  border-radius: 0 0px 0px  50px;
+			  width: 40px;
+			  height: 40px;
+			  background-color: rgba(255, 255, 255, .1);
+			  -webkit-transform-origin:  100% 0%;
+				  transform-origin:  100% 0% ;
+			  -webkit-animation: loader2 1.5s linear infinite;
+				  animation: loader2 1.5s linear infinite;
+			}
+
+
+
+			@-webkit-keyframes loader2{
+				0%{-webkit-transform:rotate(0deg);}
+				100%{-webkit-transform:rotate(360deg);}
+			}
+
+			@keyframes loader2{
+				0%{transform:rotate(0deg);}
+				100%{transform:rotate(360deg);}
+			}
+
+
+			/* -------------- loader3 -------------- */
+
+			.loader3{
+			  position: relative;
+			  width: 150px;
+			  height: 20px;
+
+			  top: 45%;
+			  top: -webkit-calc(50% - 10px);
+			  top: calc(50% - 10px);
+			  left: 25%;
+			  left: -webkit-calc(50% - 75px);
+			  left: calc(50% - 75px);
+			}
+
+			.loader3:after{
+			  content: "LOADING ...";
+			  color: #fff;
+			  font-family:  Lato,"Helvetica Neue" ;
+			  font-weight: 200;
+			  font-size: 16px;
+			  position: absolute;
+			  width: 100%;
+			  height: 20px;
+			  line-height: 20px;
+			  left: 0;
+			  top: 0;
+			  background-color: #e74c3c;
+			  z-index: 1;
+			}
+
+			.loader3:before{
+			  content: "";
+			  position: absolute;
+			  background-color: #fff;
+			  top: -5px;
+			  left: 0px;
+			  height: 30px;
+			  width: 0px;
+			  z-index: 0;
+			  opacity: 1;
+			  -webkit-transform-origin:  100% 0%;
+				  transform-origin:  100% 0% ;
+			  -webkit-animation: loader3 10s ease-in-out infinite;
+				  animation: loader3 10s ease-in-out infinite;
+			}
+
+
+
+			@-webkit-keyframes loader3{
+				0%{width: 0px;}
+				70%{width: 100%; opacity: 1;}
+				90%{opacity: 0; width: 100%;}
+				100%{opacity: 0;width: 0px;}
+			}
+
+			@keyframes loader3{
+				0%{width: 0px;}
+				70%{width: 100%; opacity: 1;}
+				90%{opacity: 0; width: 100%;}
+				100%{opacity: 0;width: 0px;}
+			}
+
+			/* -------------- loader4 -------------- */
+
+			.loader4{
+			  position: relative;
+			  width: 150px;
+			  height: 20px;
+
+			  top: 45%;
+			  top: -webkit-calc(50% - 10px);
+			  top: calc(50% - 10px);
+			  left: 25%;
+			  left: -webkit-calc(50% - 75px);
+			  left: calc(50% - 75px);
+
+			  background-color: rgba(255,255,255,0.2);
+			}
+
+			.loader4:before{
+			  content: "";
+			  position: absolute;
+			  background-color: #fff;
+			  top: 0px;
+			  left: 0px;
+			  height: 20px;
+			  width: 0px;
+			  z-index: 0;
+			  opacity: 1;
+			  -webkit-transform-origin:  100% 0%;
+				  transform-origin:  100% 0% ;
+			  -webkit-animation: loader4 10s ease-in-out infinite;
+				  animation: loader4 10s ease-in-out infinite;
+			}
+
+			.loader4:after{
+			  content: "LOADING ...";
+			  color: #fff;
+			  font-family:  Lato,"Helvetica Neue" ;
+			  font-weight: 200;
+			  font-size: 16px;
+			  position: absolute;
+			  width: 100%;
+			  height: 20px;
+			  line-height: 20px;
+			  left: 0;
+			  top: 0;
+			}
+
+			@-webkit-keyframes loader4{
+				0%{width: 0px;}
+				70%{width: 100%; opacity: 1;}
+				90%{opacity: 0; width: 100%;}
+				100%{opacity: 0;width: 0px;}
+			}
+
+			@keyframes loader4{
+				0%{width: 0px;}
+				70%{width: 100%; opacity: 1;}
+				90%{opacity: 0; width: 100%;}
+				100%{opacity: 0;width: 0px;}
+			}
+
+			/* -------------- loader5 -------------- */
+			.loader5{
+			  position: relative;
+			  width: 150px;
+			  height: 20px;
+
+			  top: 45%;
+			  top: -webkit-calc(50% - 10px);
+			  top: calc(50% - 10px);
+			  left: 25%;
+			  left: -webkit-calc(50% - 75px);
+			  left: calc(50% - 75px);
+
+			  background-color: rgba(255,255,255,0.2);
+			}
+
+			.loader5:after{
+			  content: "LOADING ...";
+			  color: #fff;
+			  font-family:  Lato,"Helvetica Neue" ;
+			  font-weight: 200;
+			  font-size: 16px;
+			  position: absolute;
+			  width: 100%;
+			  height: 20px;
+			  line-height: 20px;
+			  left: 0;
+			  top: 0;
+			}
+
+			.loader5:before{
+			  content: "";
+			  position: absolute;
+			  background-color: #fff;
+			  top: 0px;
+			  height: 20px;
+			  width: 0px;
+			  z-index: 0;
+			  -webkit-transform-origin:  100% 0%;
+				  transform-origin:  100% 0% ;
+			  -webkit-animation: loader5 7s ease-in-out infinite;
+				  animation: loader5 7s ease-in-out infinite;
+			}
+
+			@-webkit-keyframes loader5{
+				0%{width: 0px; left: 0px}
+				48%{width: 100%; left: 0px}
+				50%{width: 100%; right: 0px}
+				52%{width: 100%; right: 0px}
+				100%{width: 0px; right: 0px}
+			}
+
+			@keyframes loader5{
+				0%{width: 0px; left: 0px}
+				48%{width: 100%; left: 0px}
+				50%{width: 100%; right: 0px}
+				52%{width: 100%; right: 0px}
+				100%{width: 0px; right: 0px}
+			}
+
+			/* -------------- loader6 -------------- */
+
+			.loader6{
+			  position: relative;
+			  width: 12px;
+			  height: 12px;
+
+			  top: 46%;
+			  top: -webkit-calc(50% - 6px);
+			  top: calc(50% - 6px);
+			  left: 46%;
+			  left: -webkit-calc(50% - 6px);
+			  left: calc(50% - 6px);
+			  
+			  border-radius: 12px;
+			  background-color: #fff;
+			  -webkit-transform-origin:  50% 50%;
+				  transform-origin:  50% 50% ;
+			  -webkit-animation: loader6 1s ease-in-out infinite;
+				  animation: loader6 1s ease-in-out infinite;
+			}
+
+			.loader6:before{
+			  content: "";
+			  position: absolute;
+			  background-color: rgba(255, 255, 255, .5);
+			  top: 0px;
+			  left: -25px;
+			  height: 12px;
+			  width: 12px;
+			  border-radius: 12px;
+			}
+
+			.loader6:after{
+			  content: "";
+			  position: absolute;
+			  background-color: rgba(255, 255 ,255 ,.5);
+			  top: 0px;
+			  left: 25px;
+			  height: 12px;
+			  width: 12px;
+			  border-radius: 12px;
+			}
+
+
+			@-webkit-keyframes loader6{
+				0%{-webkit-transform:rotate(0deg);}
+				50%{-webkit-transform:rotate(180deg);}
+				100%{-webkit-transform:rotate(180deg);}
+			}
+
+			@keyframes loader6{
+				0%{transform:rotate(0deg);}
+				50%{transform:rotate(180deg);}
+				100%{transform:rotate(180deg);}
+			}
+
+			/* -------------- loader7 -------------- */
+
+			.loader7{
+			  position: relative;
+			  width: 40px;
+			  height: 40px;
+
+			  top: 40%;
+			  top: -webkit-calc(50% - 20px);
+			  top: calc(50% - 20px);
+			  left: 43%;
+			  left: -webkit-calc(50% - 20px);
+			  left: calc(50% - 20px);
+
+			  background-color: rgba(255, 255, 255, .2);
+			}
+
+			.loader7:before{
+			  content: "";
+			  position: absolute;
+			  background-color: #fff;
+			  height: 10px;
+			  width: 10px;
+			  border-radius: 10px;
+			  -webkit-animation: loader7 2s ease-in-out infinite;
+				  animation: loader7 2s ease-in-out infinite;
+			}
+
+			.loader7:after{
+			  content: "";
+			  position: absolute;
+			  background-color: #fff;
+			  top: 0px;
+			  left: 0px;
+			  height: 40px;
+			  width: 0px;
+			  z-index: 0;
+			  opacity: 1;
+			  -webkit-animation: loader72 10s ease-in-out infinite;
+				  animation: loader72 10s ease-in-out infinite;
+			}
+
+
+			@-webkit-keyframes loader7{
+				0%{left: -12px; top: -12px;}
+				25%{left:42px; top:-12px;}
+				50%{left: 42px; top: 42px;}
+				75%{left: -12px; top: 42px;}
+				100%{left:-12px; top:-12px;}
+			}
+
+			@keyframes loader7{
+				0%{left: -12px; top: -12px;}
+				25%{left:42px; top:-12px;}
+				50%{left: 42px; top: 42px;}
+				75%{left: -12px; top: 42px;}
+				100%{left:-12px; top:-12px;}
+			}
+
+			@-webkit-keyframes loader72{
+				0%{width: 0px;}
+				70%{width: 40px; opacity: 1;}
+				90%{opacity: 0; width: 40px;}
+				100%{opacity: 0;width: 0px;}
+			}
+
+			@keyframes loader72{
+				0%{width: 0px;}
+				70%{width: 40px; opacity: 1;}
+				90%{opacity: 0; width: 40px;}
+				100%{opacity: 0;width: 0px;}
+			}
+
+			/* -------------- loader8 -------------- */
+
+			.loader8{
+			  position: relative;
+			  width: 80px;
+			  height: 80px;
+
+			  top: 28%;
+			  top: -webkit-calc(50% - 43px);
+			  top: calc(50% - 43px);
+			  left: 35%;
+			  left: -webkit-calc(50% - 43px);
+			  left: calc(50% - 43px);
+
+			  border-radius: 50px;
+			  background-color: rgba(255, 255, 255, .2);
+			  border-width: 40px;
+			  border-style: double;
+			  border-color:transparent  #fff;
+
+			  -webkit-box-sizing:border-box;
+			  -moz-box-sizing:border-box;
+				box-sizing:border-box;
+
+			  -webkit-transform-origin:  50% 50%;
+				transform-origin:  50% 50% ;
+			  -webkit-animation: loader8 2s linear infinite;
+				animation: loader8 2s linear infinite;
+			  
+			}
+
+
+
+
+			@-webkit-keyframes loader8{
+				0%{-webkit-transform:rotate(0deg);}
+				100%{-webkit-transform:rotate(360deg);}
+			}
+
+			@keyframes loader8{
+				0%{transform:rotate(0deg);}
+				100%{transform:rotate(360deg);}
+			}
+
+
+			/* -------------- loader9 -------------- */
+
+			.loader9:before{
+			  content: "";
+			  position: absolute;
+			  top: 0px;
+			  height: 12px;
+			  width: 12px;
+			  border-radius: 12px;
+			  -webkit-animation: loader9g 3s ease-in-out infinite;
+				  animation: loader9g 3s ease-in-out infinite;
+			}
+
+			.loader9{
+			  position: relative;
+			  width: 12px;
+			  height: 12px;
+			  top: 46%;
+			  left: 46%;
+			  border-radius: 12px;
+			  background-color: #fff;
+			}
+
+
+			.loader9:after{
+			  content: "";
+			  position: absolute;
+			  top: 0px;
+			  height: 12px;
+			  width: 12px;
+			  border-radius: 12px;
+			  -webkit-animation: loader9d 3s ease-in-out infinite;
+				  animation: loader9d 3s ease-in-out infinite;
+			}
+
+			@-webkit-keyframes loader9g{
+			  0%{ left: -25px; background-color: rgba(255, 255, 255, .8); }
+			  50%{ left: 0px; background-color: rgba(255, 255, 255, .1);}
+			  100%{ left:-25px; background-color: rgba(255, 255, 255, .8); }
+			}
+			@keyframes loader9g{
+			  0%{ left: -25px; background-color: rgba(255, 255, 255, .8); }
+			  50%{ left: 0px; background-color: rgba(255, 255, 255, .1);}
+			  100%{ left:-25px; background-color: rgba(255, 255, 255, .8); }
+			}
+
+
+			@-webkit-keyframes loader9d{
+			  0%{ left: 25px; background-color: rgba(255, 255, 255, .8); }
+			  50%{ left: 0px; background-color: rgba(255, 255, 255, .1);}
+			  100%{ left:25px; background-color: rgba(255, 255, 255, .8); }
+			}
+			@keyframes loader9d{
+			  0%{ left: 25px; background-color: rgba(255, 255, 255, .8); }
+			  50%{ left: 0px; background-color: rgba(255, 255, 255, .1);}
+			  100%{ left:25px; background-color: rgba(255, 255, 255, .8); }
+			}
+
+			/* -------------- loader10 -------------- */
+
+			.loader10:before{
+			  content: "";
+			  position: absolute;
+			  top: 0px;
+			  left: -25px;
+			  height: 12px;
+			  width: 12px;
+			  border-radius: 12px;
+			  -webkit-animation: loader10g 3s ease-in-out infinite;
+				  animation: loader10g 3s ease-in-out infinite;
+			}
+
+			.loader10{
+			  position: relative;
+			  width: 12px;
+			  height: 12px;
+			  top: 46%;
+			  left: 46%;
+			  border-radius: 12px;
+			  -webkit-animation: loader10m 3s ease-in-out infinite;
+				  animation: loader10m 3s ease-in-out infinite;
+			}
+
+
+			.loader10:after{
+			  content: "";
+			  position: absolute;
+			  top: 0px;
+			  left: 25px;
+			  height: 10px;
+			  width: 10px;
+			  border-radius: 10px;
+			  -webkit-animation: loader10d 3s ease-in-out infinite;
+				  animation: loader10d 3s ease-in-out infinite;
+			}
+
+			@-webkit-keyframes loader10g{
+			  0%{background-color: rgba(255, 255, 255, .2);}
+			  25%{background-color: rgba(255, 255, 255, 1);}
+			  50%{background-color: rgba(255, 255, 255, .2);}
+			  75%{background-color: rgba(255, 255, 255, .2);}
+			  100%{background-color: rgba(255, 255, 255, .2);}
+			}
+			@keyframes loader10g{
+			  0%{background-color: rgba(255, 255, 255, .2);}
+			  25%{background-color: rgba(255, 255, 255, 1);}
+			  50%{background-color: rgba(255, 255, 255, .2);}
+			  75%{background-color: rgba(255, 255, 255, .2);}
+			  100%{background-color: rgba(255, 255, 255, .2);}
+			}
+
+			@-webkit-keyframes loader10m{
+			  0%{background-color: rgba(255, 255, 255, .2);}
+			  25%{background-color: rgba(255, 255, 255, .2);}
+			  50%{background-color: rgba(255, 255, 255, 1);}
+			  75%{background-color: rgba(255, 255, 255, .2);}
+			  100%{background-color: rgba(255, 255, 255, .2);}
+			}
+			@keyframes loader10m{
+			  0%{background-color: rgba(255, 255, 255, .2);}
+			  25%{background-color: rgba(255, 255, 255, .2);}
+			  50%{background-color: rgba(255, 255, 255, 1);}
+			  75%{background-color: rgba(255, 255, 255, .2);}
+			  100%{background-color: rgba(255, 255, 255, .2);}
+			}
+
+			@-webkit-keyframes loader10d{
+			  0%{background-color: rgba(255, 255, 255, .2);}
+			  25%{background-color: rgba(255, 255, 255, .2);}
+			  50%{background-color: rgba(255, 255, 255, .2);}
+			  75%{background-color: rgba(255, 255, 255, 1);}
+			  100%{background-color: rgba(255, 255, 255, .2);}
+			}
+			@keyframes loader10d{
+			  0%{background-color: rgba(255, 255, 255, .2);}
+			  25%{background-color: rgba(255, 255, 255, .2);}
+			  50%{background-color: rgba(255, 255, 255, .2);}
+			  75%{background-color: rgba(255, 255, 255, 1);}
+			  100%{background-color: rgba(255, 255, 255, .2);}
+			}
+					
+		
+  </style> 
+</head>
+
+<body>
+   <div id="container">
+   <header>
+      <hgroup>
+         <h1>Eggs Edge Network</h1>
+         <h2>Powered by Krako Labs</h2>
+		 <br><br><p>Eggs Status-bar  <progress id="progress_002" value="50" min="0" max="100"></progress> 
+		 <p>Runtime Version V 3.7.0 </p>
+	  </hgroup>
+	  Health: <pB> Processing: 77%      Performance: 60%      Resource Uage: 70%       Condition: 89%     Wating: 12%    Error: 0% </pB>
+   </header>
+ 
+   <section> 
+  
+	  
+	  <form action='a.jsp'>
+		  <b>Mobile Resource </b>
+		  <hr>
+		  <input type='checkbox' name='type' value='cpu' /> CPU &emsp;&emsp;&emsp;
+		  <input type='checkbox' name='type' value='gpu' /> NPU &emsp;&emsp;&emsp;
+		  <input type='checkbox' name='type' value='npu' /> Camera &emsp;&emsp;&emsp;
+		  <input type='checkbox' name='type' value='fs' /> FS
+		  <hr>
+		  <b> Start Date &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;	 End Date </b> <br>
+		  <hr>
+		  <input type="date" name="start" value="#11eb0c">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="date" name="start" color="#11eb0c">
+		  <hr>
+		  <br>
+		  <b> Time Zone:&emsp;&emsp;&emsp; </b>
+		  <input type='checkbox' name='time' value='AM' /> AM &emsp;&emsp;&emsp;
+		  <input type='checkbox' name='time' value='PM' /> PM &emsp;&emsp;&emsp;
+		  <input type='checkbox' name='time' value='NIGHT' /> NIGHT
+		  <hr>
+		  <b>Weekdays Table </b> <br>
+		  <input type='checkbox' name='time' value='MONDAY' /> MONDAY
+		  <input type='checkbox' name='time' value='TUESDAY' /> TUESDAY
+		  <input type='checkbox' name='time' value='WEDNESDAY' /> WEDNESDAY
+		  <br>
+		  <input type='checkbox' name='time' value='THURSDAY' /> THURSDAY
+		  <input type='checkbox' name='time' value='FRIDAY' /> FRIDAY
+		 
+		  <input type='checkbox' name='time' value='SATURDAY' /> SATURDAY
+		  <input type='checkbox' name='time' value='SUNDAY' /> SUNDAY
+		  <hr>
+		  <br>
+		  
+				  
+		  <h2>Work & Task Status</h2>
+		  <hr>
+		    <div class="progress009"></div>
+		  <style>
+		  @keyframes go-left-right {        /* 애니메이션 이름 지정: "go-left-right" */
+			from { left: 0px; }             /* left 0px 부터 애니메이션 시작 */
+			to { left: calc(100% - 50px); } /* left 값이 100%-50px 될 때까지 애니메이션 적용 */
+		  }
+
+		  .progress009 {
+			animation: go-left-right 3s infinite alternate;
+			/* 해당 요소에 커스텀 애니메이션 'go-left-right' 적용
+			   지속 시간은 3초,
+			   반복 횟수는 무한(infinite)
+			   방향은 매번 바뀜
+			*/
+
+			position: relative;
+			border: 2px color'#454545';
+			width: 50px;
+			height: 20px;
+			background: yellowgreen;
+		  }
+		</style>		
+		
+		<hr>
+		<input type="color" name="mycolor" value="#11eb0c"> <input type="color" name="mycolor" value="#11eb0c"> <input type="color" name="mycolor" value="#0c5beb"> <input type="color" name="mycolor" value="#0c5beb">
+		<input type="color" name="mycolor" value="#11eb0c"> <input type="color" name="mycolor" value="#11eb0c"> <input type="color" name="mycolor" value="#e00ceb">
+		
+				
+		<hr>
+		<h2>AI Training/Serving &emsp;&emsp;&emsp;&emsp;  3D Construction </h2>
+		<input type="checkbox" name="level" value="NONE" >NONE
+		&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <input type="checkbox" name="level" value="NONE" >NONE  <br>
+		<input type="checkbox" name="level" value="LOW" >LOW&ensp;
+		&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <input type="checkbox" name="level" value="NONE" >LOW
+		<br>
+		<input type="checkbox" name="level" value="HIGH" checked>HIGH
+		&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <input type="checkbox" name="level" value="NONE" checked>HIGH
+		<br>
+		<hr>
+		
+		
+		</form>
+		<div class="circle_005">
+			<div class="inner-circle">
+			  <span>77%</span>
+			</div>
+		</div>
+		
+		<ul>
+         <li><b>Process Monitering:</b> <div class="inner-circle"> <span>89%</span></div></li>
+		</ul>
+		
+	</section>
+    
+
+   <section> 
+        <article>
+	      <p class="ad">Processing   <progress id="progress_003" value="50" min="0" max="100"></progress>	</p>
+		  <br>
+		  <hr>
+		   &emsp; AI Training &emsp;&emsp;&emsp; 3D Construction &emsp;&emsp; AI Serving
+<!--		 
+		 <div class="container"> -->
+	   <div class="box">
+		  <div class="clock"></div>
+		  <p>Clock</p>
+		</div>
+
+		<div class="box">
+		  <div class="hourglass"></div>
+		  <p>Hourglass</p>
+		</div>
+
+		<div class="box">
+		  <div class="loader1"></div>
+		  <p>Loader 1</p>
+		</div>
+
+		<div class="box">
+		  <div class="loader2"></div>
+		  <p>loader 2</p>
+		</div>
+		<!--
+		<div class="box">
+		  <div class="loader3"></div>
+		  <p>loader 3</p>
+		</div>
+
+		<div class="box">
+		  <div class="loader4"></div>
+		  <p>loader 4</p>
+		</div>
+
+		
+		
+		<div class="box">
+		  <div class="loader6"></div>
+		  <p>loader 6</p>
+		</div>
+
+		<div class="box">
+		  <div class="loader7"></div>
+		  <p>loader 7</p>
+		</div>
+		-->
+		<div class="box">
+		  <div class="loader8"></div>
+		  <p>loader 8</p>
+		</div>
+
+		<div class="box">
+		  <div class="loader7"></div>
+		  <p>loader 5</p>
+		</div>
+		<!--
+		<div class="box">
+		  <div class="loader9"></div>
+		  <p>loader 9</p>
+		</div>
+
+		<div class="box">
+		  <div class="loader10"></div>
+		  <p>loader 10 </p>
+		</div>
+		</div>
+		 --> 
+		 <br>
+		 <hr>
+		 <br>
+		<p class="ad">Performance   <progress id="progress_003" value="80" min="0" max="100"></progress>	</p>
+		<br>
+		  <hr>
+		   <canvas id="myCanvas" width="380" height="70"></canvas>
+
+	  <script>
+		// Get the canvas and 2D context
+		const canvas = document.getElementById('myCanvas');
+		const ctx = canvas.getContext('2d');
+
+		// Create an array to store the circles
+		const circles = [
+		  { x: 50, y: 30, radius: 14, dx: 3, color: '#186a3b' }, // Circle 1
+		  { x: 150, y: 20, radius: 16, dx: 2, color: '#239b56' }, // Circle 2
+		  { x: 250, y: 20, radius: 15, dx: 4, color: '#28b463' }, // Circle 3
+		  { x: 50, y: 30, radius: 16, dx: 1, color: '#2ecc71' }, // Circle 1
+		  { x: 150, y: 40, radius: 17, dx: 5, color: '#82e0aa' }, // Circle 2
+		  { x: 250, y: 50, radius: 15, dx: 6, color: '#f1c40f' }, // Circle 3
+		];
+
+		function drawCircle(x, y, radius, color) {
+		  ctx.beginPath();
+		  ctx.arc(x, y, radius, 0, Math.PI * 2);
+		  ctx.fillStyle = color;
+		  ctx.fill();
+		  ctx.closePath();
+		}
+
+		function animate() {
+		  // Clear the canvas
+		  ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+		  // Update and draw each circle
+		  circles.forEach(circle => {
+			circle.x += circle.dx;
+			if (circle.x + circle.radius > canvas.width || circle.x - circle.radius < 0) {
+			  circle.dx = -circle.dx; // Reverse direction on hitting the canvas edges
+			}
+			drawCircle(circle.x, circle.y, circle.radius, circle.color);
+		  });
+
+		  requestAnimationFrame(animate); // Repeat the animation
+		}
+
+		// Start the animation
+		animate();
+	  </script>
+         	  
+		<div class="vertical_chart_box">
+		  <div class="chart_box">
+			<ul class="axis_y">
+			  <li class="item">0<span class="blind">Work</span></li>
+			  <li class="item">3<span class="blind">Task</span></li>
+			  <li class="item">6<span class="blind">CPU</span></li>
+			  <li class="item">9<span class="blind">GPU</span></li>
+			  <li class="item">12<span class="blind">FS</span></li>
+			</ul>
+			<ul class="axis_x">
+			  <li class="item">
+				<div class="text_box">
+				  <strong class="day">Work</strong>
+				  <span class="time">90%</span>
+				</div>
+				<button type="button" class="graph">
+				  <span class="time data1" style="height:80%;"><span class="blind">data 타입 1</span></span>
+				</button>
+			  </li>
+			  <li class="item">
+				<div class="text_box">
+				  <strong class="day">Task</strong>
+				  <span class="time">30%</span>
+				</div>
+				<button type="button" class="graph">
+				  <span class="time data1" style="height:50%;"><span class="blind">data 타입 1</span></span>
+				  <span class="time data2" style="height:20%;"><span class="blind">data 타입 2</span></span>
+				  <span class="time data3" style="height:10%;"><span class="blind">data 타입 3</span></span>
+				</button>
+			  </li>
+			  <li class="item">
+				<div class="text_box">
+				  <strong class="day">CPU</strong>
+				  <span class="time">100%</span>
+				</div>
+				<button type="button" class="graph">
+				  <span class="time data3" style="height:100%;"><span class="blind">data 타입 3</span></span>
+				</button>
+			  </li>
+			  <li class="item">
+				<div class="text_box">
+				  <strong class="day">GPU</strong>
+				  <span class="time">100%</span>
+				</div>
+				<button type="button" class="graph">
+				  <span class="time data1" style="height:100%;"><span class="blind">data 타입 1</span></span>
+				</button>
+			  </li>
+			  <li class="item">
+				<div class="text_box">
+				  <strong class="day">FS</strong>
+				  <span class="time">30%</span>
+				</div>
+				<button type="button" class="graph">
+				  <span class="time data1" style="height:40%;"><span class="blind">data 타입 1</span></span>
+				  <span class="time data3" style="height:40%;"><span class="blind">data 타입 3</span></span>
+				</button>
+			  </li>
+			  <li class="item">
+				<div class="text_box">
+				  <strong class="day sat">Resource</strong>
+				  <span class="time">25%</span>
+				</div>
+				<button type="button" class="graph">
+				  <span class="time data2" style="height:20%;"><span class="blind">data 타입 2</span></span>
+				</button>
+			  </li>
+			  <li class="item">
+				<div class="text_box">
+				  <strong class="day sun">Error</strong>
+				  <span class="time">0%</span>
+				</div>
+				<button type="button" class="graph"></button>
+			  </li>
+			</ul>
+		  </div>                                                 
+		</div>
+   
+	 </article>
+		 
+		
+	
+		
+		  
+   </section>
+   
+ 
+   
+   <br>
+   <footer>
+      <div> <h1><b>Email: info@krako.xyz </h1>        
+	  <br>
+	  <h1>HomePage: <a href="http://krako.xyz">Krako.zyz</a> </b></h1></div>
+	  <br><br>
+	  <p>© 2025 Krako Labs, Inc. All rights reserved. Krako™ and the Krako logo are trademarks of Krako Labs, Inc. The information provided on this website does not constitute investment advice, financial advice, trading advice, or any other sort of advice. You should not treat any of the website's content as such. Krako Labs, Inc. does not recommend that any cryptocurrency should be bought, sold, or held by you. Do conduct your own due diligence and consult your financial advisor before making any investment decisions.</p>
+   </footer>
+   
+   </div>
+</body>
+</html>
