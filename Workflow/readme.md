@@ -15,7 +15,8 @@ Low Cost WEB3 Service For AI Training, Serving, Construction 3D with Decenternal
 ![Orchestation](./images/tech_018.png)
 
 2. User(Taker) Install Krako Client on Windows/MAC/LIUNX Computer or Android/iOS Mobile
-   
+![Client](./images/tech_021.png)
+
 3. Resource Provider User(Giver) set Resource Computing Power with CPU, GPU, NPU, IPFS, ETC
 ![Resource](./images/tech_002.png)
 
