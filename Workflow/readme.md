@@ -1,6 +1,7 @@
 ## Krako Workflow
 Low Cost WEB3 Service For AI Training, Serving, Construction 3D with Decenternal Computing
 ![Workflow](./images/Workflow_003.PNG)
+
 ![Resource](./images/tech_004.png)
 
 
