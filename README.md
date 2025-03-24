@@ -434,7 +434,7 @@
   1. Example (Video →NeRF2Mesh→ 3DMesh)
       - Request
         curl -X 'POST' \
-          'https://api.krako.xyz/kraken/model/nerf2mesh/create' \
+          'https://api.krako.xyz/krako/model/nerf2mesh/create' \
           -H 'accept: application/json' \
           -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9' \
           -H 'Content-Type: multipart/form-data' \
@@ -456,7 +456,7 @@
    1. Example (Video → NeRF2Mesh → 3DMesh)
         - Request
           curl -X 'GET' \
-           'https://api.krako.xyz/kraken/item/my-item/257a59cc-0a3e-4ce7-b7e3-17f3ce6a8041' \
+           'https://api.krako.xyz/krako/item/my-item/257a59cc-0a3e-4ce7-b7e3-17f3ce6a8041' \
            -H 'accept: application/json' \
            -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9'
           
@@ -478,7 +478,7 @@
   1. Example (Video → NeRF2Mesh → 3DMesh)
       - Request
           curl -X 'GET' \
-           'https://api.krako.xyz/kraken/item/download/257a59cc-0a3e-4ce7-b7e3-17f3ce6a8041?type=model' \
+           'https://api.krako.xyz/krako/item/download/257a59cc-0a3e-4ce7-b7e3-17f3ce6a8041?type=model' \
            -H 'accept: application/octet-stream' \
            -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9' \
            --output nerf2mesh.glb
@@ -765,7 +765,7 @@ Response Body Example
 | Content-Type | `application/json` |     |
 | **Query** |     |     |
 | **Key** | **Type** | **Description** |
-| `email` | `string` | 사용자 Email |
+| `email` | `string` | User Email |
 | `userId` | `string` | Unique user identifier value (uuid) |
 | `groupId` | `string` | Unique group identifier value (uuid) |
 
