@@ -413,7 +413,7 @@
 1. Example (Authorization)
     - Request
           curl -X 'POST' \
-            'https://api.krako.xyz/kraken/auth/sign-in' \
+            'https://api.krako.xyz/krako/auth/sign-in' \
             -H 'accept: application/json' \
             -H 'Content-Type: application/json' \
             -d '{
