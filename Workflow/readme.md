@@ -11,7 +11,7 @@ Low Cost WEB3 Service For AI Training, Serving, Construction 3D with Decenternal
 3. Edge Network As Eggs
 ![Architecture](./images/Architecture_001.PNG)
 
-### Basic Workflow
+### Basic Workflow with Client And Server
 1. Krako Operation Team Set Orchestation Server
 ![Orchestation](./images/tech_018.png)
 
